@@ -20,13 +20,9 @@ See 890 and 890 II repos for basic instructions.
 
 Credits
 
-## OEFWCOM
+[DualTachyon](https://github.com/dualtachyon)
 
 [OEFWCOM](https://github.com/OEFW-community/RT-890-custom-firmware)
-
-## OEFW/OEFWCOM
-
-[DualTachyon](https://github.com/dualtachyon)
 
 [CR7BLE](https://github.com/jcalado)
 
