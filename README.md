@@ -1,6 +1,6 @@
 ## Mono890
 
-
+![Screenshot_20251125-102122](https://github.com/user-attachments/assets/db0a8dda-40b7-42dc-842d-0999b9ccf2be)
 
 Radtel RT-890 custom firmware Series 4.
 
