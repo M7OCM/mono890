@@ -10,7 +10,7 @@ Use at own risk, my personal project, back up SPI before proceeding, no warranty
 
 Its a figure it out yourself approach. Strictly no requests, source available soon for further tinkering.
 
-This may be a one off update so don't expect lots of updates if any.
+This may be a one off upload so don't expect lots of updates if any.
 
 No colour versions (shock horror!) strictly mono for reduced interference from screen updates. Works better outside too. RSSI refresh rate reduced plus some great additions from developer [motorello](https://github.com/motorello/RT-890-OEFW-more)
 
