@@ -14,9 +14,7 @@ This may be a one off upload so don't expect lots of updates if any.
 
 No colour versions (shock horror!) strictly mono for reduced interference from screen updates. Works better outside too. RSSI refresh rate reduced plus some great additions from developer [motorello](https://github.com/motorello/RT-890-OEFW-more)
 
-I'll try and get some documentation together - disclaimer might not happen - in true amateur tradition... experiment lol
-
-See 890 and 890 II repos for basic instructions.
+See 890 and 890 II repos for basic instructions, Chirp driver, flasher, and SPI restore tools. A lot of the info is the same but there have been lots of changes to the firmware since the last update (V3.2 on Radtels website).
 
 Credits
 
