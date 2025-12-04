@@ -1,4 +1,4 @@
-## Mono890
+## Mono890 Radtel RT-890 PCB2.0/PCB2.1
 
 ![Screenshot_20251125-102122](https://github.com/user-attachments/assets/db0a8dda-40b7-42dc-842d-0999b9ccf2be)
 
