@@ -4,17 +4,38 @@
 
 Radtel RT-890 custom firmware Series 4.
 
-30 Nov 2025 Binary file archive of my recent RT-890 custom firmware for PCB2.0 and PCB2.1. It's the firmware I currently use on both boards. Note previous VHF issues with older PCB2.1 firmware was resolved a long time ago (V3.2 on Radtels website). Thanks to Marcus Dudley and Kelvin.
+30 Nov 2025 Binary file archive of my recent RT-890 custom firmware for PCB2.0 and PCB2.1. It's the firmware I currently use. Note previous VHF issues with older PCB2.1 firmware was resolved a long time ago (V3.2 on Radtels website). Thanks to Marcus Dudley and Kelvin.
 
-Use at own risk, my personal project, back up SPI before proceeding, no warranty anything works, may destroy your radio but never has mine and I've got lots - many with hundreds of firmware revisions installed!
+Use at own risk, my personal project, back up SPI before proceeding, no warranty anything works, may destroy your radio etc etc
 
-Its a figure it out yourself approach. Strictly no requests, source available soon for further tinkering.
+Its a figure it out yourself approach, I'm afraid. Strictly no requests, source is open and available for further tinkering (see credits for the users involved in this project).
 
 This may be a one off upload so don't expect lots of updates if any.
 
-No colour versions (shock horror!) strictly mono for reduced interference from screen updates. Works better outside too. RSSI refresh rate reduced plus some great additions from developer [motorello](https://github.com/motorello/RT-890-OEFW-more)
+No colour versions (shock horror!) strictly mono for reduced interference from screen updates. Works better outside too. RSSI refresh rate reduced to 2000ms, plus a host of great additions from developer [motorello](https://github.com/motorello/RT-890-OEFW-more) 8.33kHz spacing, extended step sizes in the spectrum, reduced long press hold for faster interaction. Standard OEM squelch (sod it, back to basics lol), refined display for less interference from updates. SIGREP (Signal Report/S meter) introduced in single freq mode (OEFWCOM mod - see below), AM Fix indicator in single freq mode.
 
-See 890 and 890 II repos for basic instructions, Chirp driver, flasher, and SPI restore tools. A lot of the info is the same but there have been lots of changes to the firmware since the last update (V3.2 on Radtels website).
+S meter
+- S9 + 60 dB 	-33 dBm
+- S9 + 50 dB 	-43 dBm
+- S9 + 40 dB 	-53 dBm
+- S9 + 30 dB 	-63 dBm
+- S9 + 20 dB 	-73 dBm
+- S9 + 10 dB 	-83 dBm
+
+... note S0-S9 will display as such however S9+ readings will display like this: '9.nn' actual dBm eg (S)9.75(dBm)
+
+- S9 			-93 dBm
+- S8 			-99 dBm
+- S7 			-105 dBm
+- S6 			-111 dBm
+- S5 			-117 dBm
+- S4 			-123 dBm
+- S3 			-129 dBm
+- S2 			-135 dBm
+- S1 			-141 dBm
+- S0 			-147 dBm
+
+Please see 890 and 890 II repos for basic instructions, M7OCM Chirp driver, Dual Tachyon 890 flasher and SPI restore tools. A lot of the info applies to this firmware but there have been lots of changes (see above for some) since the last update (v3.2 on Radtels website) not least the mono display.
 
 Credits
 
