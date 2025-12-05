@@ -4,7 +4,7 @@
 
 Radtel RT-890 custom firmware Series 4.
 
-30 Nov 2025 Binary file archive of my recent RT-890 custom firmware for PCB2.0 and PCB2.1. It's the firmware I currently use. Note previous VHF issues with older PCB2.1 firmware was resolved a long time ago (V3.2 on Radtels website). Thanks to Marcus Dudley and Kelvin.
+30 Nov 2025 Binary file archive of my recent RT-890 custom firmware for PCB2.0 and PCB2.1. It's the firmware I currently use. Note previous VHF issues with older PCB2.1 firmware was resolved a long time ago (v3.2 on Radtels website). Thanks to Marcus Dudley and Kelvin.
 
 Use at own risk, my personal project, back up SPI before proceeding, no warranty anything works, may destroy your radio etc etc
 
