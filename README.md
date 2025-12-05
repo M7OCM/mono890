@@ -10,6 +10,11 @@ Use at own risk, my personal project, back up SPI before proceeding, no warranty
 
 Its a figure it out yourself approach, I'm afraid. Strictly no requests, source is open and available for further tinkering (see credits for the users involved in this project).
 
+When compiling the binary, ensure the correct PCB board is set in the Makefile 
+
+- 0 = PCB2.0
+- 1 = PCB2.1
+
 This may be a one off upload so don't expect lots of updates if any.
 
 No colour versions (shock horror!) strictly mono for reduced interference from screen updates. Works better outside too. RSSI refresh rate reduced to 2000ms, plus a host of great additions from developer [motorello](https://github.com/motorello/RT-890-OEFW-more) 8.33kHz spacing, extended step sizes in the spectrum, reduced long press hold for faster interaction. Standard OEM squelch (sod it, back to basics lol), refined display for less interference from updates. SIGREP (Signal Report/S meter) introduced in single freq mode (OEFWCOM mod - see below), AM Fix indicator in single freq mode.
