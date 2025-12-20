@@ -10,7 +10,7 @@ I have removed the NOAA channels/alerts and replaced them with the 3 HMCG Mariti
 
 To use this feature firstly designate a shortcut long press key (eg #5 which is default AM Fix). Select HMCG MSI WX from shortcuts menu. Long press to activate. It will scan these 3 channels until and a broadcast is received. To exit press PTT once.
 
-No other changes, so if you don't care (lol) or use NOAA in the US/Canada, don't download it! I find it useful as I live a few clicks from the North Sea ⛵ Happy Days 
+No other changes, so if you don't care (lol) or use NOAA in the US/Canada, don't download it! I find it useful as I live a few clicks from the North Sea ⛵ Happy Days ⛵
 
 30 Nov 2025 Binary file archive of my recent RT-890 custom firmware for PCB2.0 and PCB2.1. It's the firmware I currently use. Note previous VHF issues with older PCB2.1 firmware was resolved a long time ago (v3.2 on Radtels website). Thanks to Marcus Dudley and Kelvin.
 
