@@ -4,7 +4,7 @@
 
 Radtel RT-890 custom firmware Series 4.
 
-20 December 2025 UK only MSI edition. I have removed the NOAA channels/alerts and replaced them with the 3 HMCG Maritime Safety Information (MSI) Broadcast Channels (92, 93 and 94). [see here for more information](https://www.gov.uk/maritime-safety-weather-and-navigation)
+20 December 2025 UK only MSI edition. I have removed the NOAA channels/alerts and replaced them with the 3 HMCG Maritime Safety Information (MSI) Broadcast Channels (92, 93 and 94). [See here for more information](https://www.gov.uk/maritime-safety-weather-and-navigation)
 
 To use this feature firstly designate a shortcut long press key (eg #5 which is default AM Fix). Select HMCG MSI WX from shortcuts menu. Long press to activate. It will scan these 3 channels until and a broadcast is received. To exit press PTT once.
 
@@ -14,7 +14,7 @@ No other changes, so if you don't care (lol) or use NOAA in the US/Canada, don't
 
 Use at own risk, my personal project, back up SPI before proceeding, no warranty anything works, may destroy your radio etc etc My only advice here is don't expect miracles and expect severe overloading if using external antennas. I use regular whips, and telescopic antennae, I also use SMA inline attenuators, 10dB is a good choice to knock the edge off on AM. AM mode really needs register changes to get the best out of it I cannot advise on what may or may not work as your setup will differ greatly from mine (AM Fix is fine but only with a stumpy on 118-137MHz). AM Fix on 225-399.975 is much more effective in my opinion).
 
-SATCOM results are good (breaks squelch good) but use NFM it makes a world of difference.
+SATCOM results are good (breaks squelch with decent length telescopic), but use NFM it makes a world of difference. Experiment with squelch open and edit registers while listening to changes (new feature by dev motorello), better... worse etc its all quite straightforward and resets on reboot so nothing ventured nothing gained is the attitude lol
 
 Other than that its a figure it out yourself approach, I'm afraid, it's what amateur radio is all about right? Strictly no requests, open source available for further tinkering (see credits for the users involved in this project).
 
