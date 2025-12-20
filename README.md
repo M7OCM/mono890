@@ -4,11 +4,19 @@
 
 Radtel RT-890 custom firmware Series 4.
 
+20 December 2025 UK only MSI edition. I have removed the NOAA channels/alerts and replaced them with the 3 HMCG Maritime Safety Information (MSI) Broadcast Channels (92, 93 and 94). [see here for more information](https://www.gov.uk/maritime-safety-weather-and-navigation)
+
+To use this feature firstly designate a shortcut long press key (eg #5 which is default AM Fix). Select HMCG MSI WX from shortcuts menu. Long press to activate. It will scan these 3 channels until and a broadcast is received. To exit press PTT once.
+
+No other changes, so if you don't care (lol) or use NOAA in the US/Canada, don't download it! I find it useful as I live a few clicks from the North Sea ⛵ Happy Days 
+
 30 Nov 2025 Binary file archive of my recent RT-890 custom firmware for PCB2.0 and PCB2.1. It's the firmware I currently use. Note previous VHF issues with older PCB2.1 firmware was resolved a long time ago (v3.2 on Radtels website). Thanks to Marcus Dudley and Kelvin.
 
-Use at own risk, my personal project, back up SPI before proceeding, no warranty anything works, may destroy your radio etc etc
+Use at own risk, my personal project, back up SPI before proceeding, no warranty anything works, may destroy your radio etc etc My only advice here is don't expect miracles and expect severe overloading if using external antennas. I use regular whips, and telescopic antennae, I also use SMA inline attenuators, 10dB is a good choice to knock the edge off on AM. AM mode really needs register changes to get the best out of it I cannot advise on what may or may not work as your setup will differ greatly from mine (AM Fix is fine but only with a stumpy on 118-137MHz). AM Fix on 225-399.975 is much more effective in my opinion).
 
-Its a figure it out yourself approach, I'm afraid. Strictly no requests, source is open and available for further tinkering (see credits for the users involved in this project).
+SATCOM results are good (breaks squelch good) but use NFM it makes a world of difference.
+
+Other than that its a figure it out yourself approach, I'm afraid, it's what amateur radio is all about right? Strictly no requests, open source available for further tinkering (see credits for the users involved in this project).
 
 When compiling the binary, ensure the correct PCB board is set in the Makefile 
 
