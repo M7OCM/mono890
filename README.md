@@ -6,7 +6,7 @@ Radtel RT-890 custom firmware Series 4.
 
 20 December 2025 - m7ocm-rt-890-pcb-all-msi-uk-users.zip - UK only MSI edition RT-890 PCB2.0 & PCB2.1
 
-I have removed the NOAA channels/alerts and replaced them with the three VHF HMCG Maritime Safety Information (MSI) Broadcast Channels (Ch 62) 160.725, (Ch 63) 160.775 and (Ch 64) 160.825. [See here for more information](https://www.gov.uk/maritime-safety-weather-and-navigation)
+I have removed the NOAA channels/alerts and replaced them with the three VHF HM Coastguard Maritime Safety Information (MSI) broadcast channels: (Ch 62) 160.725, (Ch 63) 160.775 and (Ch 64) 160.825. [See here for more information](https://www.gov.uk/maritime-safety-weather-and-navigation)
 
 To use this feature firstly designate a shortcut long press key (eg #5 which is default AM Fix). Select HMCG MSI WX from shortcuts menu. Long press to activate. It will scan these 3 channels until and a broadcast is received. To exit press PTT once.
 
