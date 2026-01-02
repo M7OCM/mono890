@@ -81,7 +81,7 @@ Marcos
 
 [Xawen](https://github.com/xawen)
 
-Many thanks to them all!
+Many thanks to them all, especially Dual Tachyon the legend that reverse engineered the OEM firmware👍
 
 73
 
