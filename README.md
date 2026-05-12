@@ -4,7 +4,7 @@ The mono series is specifically designed to reduce RF interference caused by the
 
 ![Screenshot_20251125-102122](https://github.com/user-attachments/assets/db0a8dda-40b7-42dc-842d-0999b9ccf2be)
 
-12 May 2026 Evolution mono890
+TBA May 2026 Evolution mono890
 
 m7ocm_evolution_i_pcb2.0_uk.bin
 m7ocm_evolution_i_pcb2.1_uk.bin
@@ -22,7 +22,7 @@ Key 5 has also been added to the register edit screen globally. That enables/dis
 VHF airband
 8.33kHz logic has been improved in VFO mode so the spacing counts up and down correctly. While VFO 8.33 works perfectly, the spectrum rounds frequencies to the nearest digit. It's not perfect but acceptable given the radios overall performance.
 
-This version does not include NOAA frequencies only UK MCA MSI channels. A US/Canada version will be available shortly.
+This version does not include NOAA frequencies, only UK MCA MSI channels.
 
 20 December 2025 - m7ocm-rt-890-pcb-all-msi-uk-users.zip - UK only MSI edition RT-890 PCB2.0 & PCB2.1
 
