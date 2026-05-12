@@ -4,11 +4,29 @@ The mono series is specifically designed to reduce RF interference caused by the
 
 ![Screenshot_20251125-102122](https://github.com/user-attachments/assets/db0a8dda-40b7-42dc-842d-0999b9ccf2be)
 
-Radtel RT-890 custom firmware Series 4.
+12 May 2026 Evolution890
+
+m7ocm_evolution_i_pcb2.0_uk.bin
+m7ocm_evolution_i_pcb2.1_uk.bin
+
+Spectrum now has a blacklist function for nuisance frequencies, max 50 frequencies can be blacklisted during spectrum search.
+
+To blacklist a frequency press Key 5. To restore all blacklisted frequencies press Key 2.
+
+Blacklisted frequencies are restored after exiting the spectrum and during normal power boots.
+
+Key 8 opens the BK4819 register during spectrum - useful to fine tune gain on the fly (active carrier and squelch open is best).
+
+Key 5 has also been added to the register edit screen globally. That enables/disables AM Fix. This should be off in Spectrum as AM Fix is not suitable for that mode. The indicator AF ON shows when active, when off battery voltage will show.
+
+VHF airband
+8.33kHz logic has been improved in VFO mode so the spacing is counts up and down correctly. While VFO 8.33 works perfectly, the spectrum rounds frequencies to the nearest digit. It's not perfect but acceptable given the radios overall performance.
+
+This version does not include NOAA frequencies only UK MCA MSI channels. A US/Canada version will be available shortly.
 
 20 December 2025 - m7ocm-rt-890-pcb-all-msi-uk-users.zip - UK only MSI edition RT-890 PCB2.0 & PCB2.1
 
-I have removed the NOAA channels/alerts and replaced them with the three VHF HM Coastguard Maritime Safety Information (MSI) broadcast channels: (Ch 62) 160.725, (Ch 63) 160.775 and (Ch 64) 160.825. [See here for more information](https://www.gov.uk/maritime-safety-weather-and-navigation)
+I have removed the NOAA channels/alerts and replaced them with the three VHF MCA HM Coastguard Maritime Safety Information (MSI) broadcast channels: (Ch 62) 160.725, (Ch 63) 160.775 and (Ch 64) 160.825. [See here for more information](https://www.gov.uk/maritime-safety-weather-and-navigation)
 
 To use this feature firstly designate a shortcut long press key (eg #5 which is default AM Fix). Select HMCG MSI WX from shortcuts menu. Long press to activate. It will scan these 3 channels until and a broadcast is received. To exit press PTT once.
 
