@@ -4,7 +4,7 @@ The mono series is specifically designed to reduce RF interference caused by the
 
 ![Screenshot_20251125-102122](https://github.com/user-attachments/assets/db0a8dda-40b7-42dc-842d-0999b9ccf2be)
 
-12 May 2026 Evolution890
+12 May 2026 Evolution mono890
 
 m7ocm_evolution_i_pcb2.0_uk.bin
 m7ocm_evolution_i_pcb2.1_uk.bin
