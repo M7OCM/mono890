@@ -56,7 +56,7 @@ Spectrum
 - [7] Hold/Search (in hold, use up/down to adjust main frequency - useful to avoid RFI)
 - [8] Enter Reg Edit, [EXIT] to return to spectrum
 - [9] Decrease squelch level
-- [0] Toggle v/u band filter (F = On, X = Off)
+- [0] Toggle VHF/UHF band filter (F = On, X = Off)
 - [*] Change scan delay (0 - 10ms)
 - [#] Toggle bandwidth (25.0K = wide, 12.5K = narrow)
 - [MENU] Jump to VFO mode with current frequency and bandwidth (to allow TX FM only)
