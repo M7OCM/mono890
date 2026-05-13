@@ -1,8 +1,6 @@
 ## Mono890 Series 4 and Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1
 
-The mono series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also more visible under direct sunlight (light theme).
-
-![Screenshot_20251125-102122](https://github.com/user-attachments/assets/db0a8dda-40b7-42dc-842d-0999b9ccf2be)
+The mono series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also highly visible under direct sunlight (when using the light theme).
 
 TBA May 2026 Evolution mono890
 
@@ -89,7 +87,7 @@ The following keypad keys are all LP
 - [MENU] TX CTCSS/DCS
 - [EXIT] Single/Dual Display
 
-<end of latest update>
+End of latest update
 
 20 December 2025 - m7ocm-rt-890-pcb-all-msi-uk-users.zip - UK only MSI edition RT-890 PCB2.0 & PCB2.1
 
