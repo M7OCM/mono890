@@ -20,6 +20,7 @@ Key 8 opens the BK4819 register during spectrum - useful to fine tune gain on th
 Key 5 has also been added to the register edit screen globally. That enables/disables AM Fix. This should be off in Spectrum as AM Fix is not suitable for that mode. The indicator AF ON shows when active, when off battery voltage will show.
 
 VHF airband
+
 8.33kHz logic has been improved in VFO mode so the spacing counts up and down correctly. While VFO 8.33 works perfectly, the spectrum rounds frequencies to the nearest digit. It's not perfect but acceptable given the radios overall performance.
 
 This version does not include NOAA frequencies, only UK MCA MSI channels.
@@ -28,6 +29,7 @@ This version does not include NOAA frequencies, only UK MCA MSI channels.
 Keyboard commands for new features:
 
 Register Editor
+
 Choose a shortcut key to launch Register Editor or use within spectrum. The screen shows the current register values. The register currently being edited will display in a larger font.
 
 - [Up] Move editor to next register
@@ -41,6 +43,7 @@ Choose a shortcut key to launch Register Editor or use within spectrum. The scre
 AGC = Auto Gain Control. FGC = Fixed Gain Control.
 
 Spectrum
+
 - Enter by pressing side key 2 LP (default), reset keys if not
 - [Up] Increase frequency range
 - [Down] Decrease frequency range
