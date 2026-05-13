@@ -24,6 +24,42 @@ VHF airband
 
 This version does not include NOAA frequencies, only UK MCA MSI channels.
 
+
+Keyboard commands for new features:
+
+Register Editor
+Choose a shortcut key to launch Register Editor or use within spectrum. The screen shows the current register values. The register currently being edited will display in a larger font.
+
+- [Up] Move editor to next register
+- [Down] Move to previous register
+- [1] Change RF Gain Control (AGC 3, FGC 3/2/1/0/7/6/5/4); If AM Fix is on, use AGC 3 (default). Turn AM Fix off if using FGC
+- [2] Decrease value of current register's setting by 1
+- [3] Increase value of current register's setting by 1
+- [5] AM Fix on/off (should be set off in spectrum)
+- [EXIT] Return to main
+
+AGC = Auto Gain Control. FGC = Fixed Gain Control.
+
+Spectrum
+- Enter by pressing side key 2 LP (default), reset keys if not
+- [Up] Increase frequency range
+- [Down] Decrease frequency range
+- [1] Change scan step (16, 32, 64 or 128)
+- [2] Restore all previously blacklisted frequencies
+- [3] Change modulation FM, AM or SB (SSB)
+- [4] Change step size (10Hz- 1MHz)
+- [5] Blacklist frequency, max 50 per session, restore with key [2], resets on leaving spectrum and also on boot
+- [6] Increase squelch level
+- [7] Hold/Search (in hold, use up/down to adjust main frequency - useful to avoid RFI)
+- [8] Enter Reg Edit, [EXIT] to return to spectrum
+- [9] Decrease squelch level
+- [0] Toggle v/u band filter (F = On, X = Off)
+- [*] Change scan delay (0 - 10ms)
+- [#] Toggle bandwidth (25.0K = wide, 12.5K = narrow)
+- [MENU] Jump to VFO mode with current frequency and bandwidth (to allow TX FM only)
+- [EXIT] Return to main
+- SP [#] switch between VFO-CH mode
+
 20 December 2025 - m7ocm-rt-890-pcb-all-msi-uk-users.zip - UK only MSI edition RT-890 PCB2.0 & PCB2.1
 
 I have removed the NOAA channels/alerts and replaced them with the three VHF MCA HM Coastguard Maritime Safety Information (MSI) broadcast channels: (Ch 62) 160.725, (Ch 63) 160.775 and (Ch 64) 160.825. [See here for more information](https://www.gov.uk/maritime-safety-weather-and-navigation)
