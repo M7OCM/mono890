@@ -1,4 +1,4 @@
-## Mono890 Series 4 custom firmware for Radtel RT-890 PCB2.0/PCB2.1
+## Mono890 Series 4 and Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1
 
 The mono series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also more visible under direct sunlight (light theme).
 
