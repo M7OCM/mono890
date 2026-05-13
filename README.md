@@ -63,6 +63,34 @@ Spectrum
 - [EXIT] Return to main
 - SP [#] switch between VFO-CH mode
 
+Default Keys
+
+- Side Key [1SP] Monitor
+- Side Key [1LP] Freq Detect
+- Side Key [2SP] Scan/Advance Scan Bank/- Scan Stop (LP)
+- Side Key [2LP] Spectrum
+
+SP = Short Press; LP = Long Press
+
+The following keypad keys are all LP
+
+- [1] Squelch
+- [2] Step Size
+- [3] Bandwidth
+- [4] TX Power
+- [5] AM Fix
+- [6] Dual Watch
+- [7] Repeater/Talkaround
+- [8] DTMF
+- [9] Add or remove a channel to current scan bank
+- [0] FMB
+- [*] Edit TX Freq
+- [#] Lock
+- [MENU] TX CTCSS/DCS
+- [EXIT] Single/Dual Display
+
+<end of latest update>
+
 20 December 2025 - m7ocm-rt-890-pcb-all-msi-uk-users.zip - UK only MSI edition RT-890 PCB2.0 & PCB2.1
 
 I have removed the NOAA channels/alerts and replaced them with the three VHF MCA HM Coastguard Maritime Safety Information (MSI) broadcast channels: (Ch 62) 160.725, (Ch 63) 160.775 and (Ch 64) 160.825. [See here for more information](https://www.gov.uk/maritime-safety-weather-and-navigation)
