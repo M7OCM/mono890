@@ -2,9 +2,10 @@
 
 The mono series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also highly visible under direct sunlight (when using the light theme).
 
-TBA May 2026 Evolution mono890
+14 May 2026 Evolution mono890
 
 m7ocm_evolution_i_pcb2.0_uk.bin
+
 m7ocm_evolution_i_pcb2.1_uk.bin
 
 Spectrum now has a blacklist function for nuisance frequencies, max 50 frequencies can be blacklisted during spectrum search.
