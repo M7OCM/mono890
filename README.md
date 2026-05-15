@@ -105,9 +105,13 @@ No other changes, so if you don't care (lol) or use NOAA in the US/Canada, don't
 
 30 Nov 2025 Binary file archive of my recent RT-890 custom firmware for PCB2.0 and PCB2.1. It's the firmware I currently use. Note previous VHF issues with older PCB2.1 firmware was resolved a long time ago (v3.2 on Radtels website). Thanks to Marcus Dudley and Kelvin.
 
+<img width="8192" height="4433" alt="1000182947" src="https://github.com/user-attachments/assets/02c94d2c-9a91-4605-a927-609fdb3d6cea" />
+
 Use at own risk, my personal project, back up SPI before proceeding, no warranty anything works, may destroy your radio etc etc My only advice here is don't expect miracles and expect severe overloading if using external antennas. I use regular whips, and telescopic antennae, I also use SMA inline attenuators, 10dB is a good choice to knock the edge off on AM. AM mode really needs register changes to get the best out of it I cannot advise on what may or may not work as your setup will differ greatly from mine - AM Fix is fine but only with a stumpy on 118-137 MHz. AM Fix on 225-399.975 MHz is much more effective in my opinion.
 
-SATCOM results are good (breaks squelch with decent length telescopic), but use NFM, it makes a world of difference. Experiment with squelch open and edit registers while listening to changes (new feature by dev motorello), better... worse etc its all quite straightforward and resets on reboot so nothing ventured nothing gained is the attitude lol
+<img width="4454" height="8163" alt="1000182950" src="https://github.com/user-attachments/assets/b29da4ad-982d-4ad8-ac92-4455e857cf13" />
+
+SATCOM results are good (breaks squelch with decent length telescopic). Experiment with squelch open and edit registers while listening to changes (new feature by dev motorello), better... worse etc its all quite straightforward and resets on reboot so nothing ventured nothing gained is the attitude lol
 
 Other than that its a figure it out yourself approach, I'm afraid, it's what amateur radio is all about right? Strictly no requests, open source available for further tinkering (see credits for the users involved in this project).
 
