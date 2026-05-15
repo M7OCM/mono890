@@ -1,5 +1,7 @@
 ## Mono890 Series 4 and Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1
 
+<img width="1702" height="2508" alt="1000182942" src="https://github.com/user-attachments/assets/fa95b192-c6ca-4eaa-8432-96581b4a1e8d" />
+
 The mono series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also highly visible under direct sunlight (when using the light theme).
 
 14 May 2026 Evolution mono890
@@ -9,6 +11,8 @@ m7ocm_evolution_i_pcb2.0_uk.bin
 m7ocm_evolution_i_pcb2.1_uk.bin
 
 Spectrum now has a blacklist function for nuisance frequencies, max 50 frequencies can be blacklisted during spectrum search.
+
+<img width="4913" height="3091" alt="1000182938" src="https://github.com/user-attachments/assets/46ddfa88-9d6d-44c2-8d45-468daefb63dd" />
 
 To blacklist a frequency press Key 5. To restore all blacklisted frequencies press Key 2.
 
@@ -21,6 +25,7 @@ Key 5 has also been added to the register edit screen globally. That enables/dis
 VHF airband
 
 8.33kHz logic has been improved in VFO mode so the spacing counts up and down correctly. While VFO 8.33 works perfectly, the spectrum rounds frequencies to the nearest digit. It's not perfect but acceptable given the radios overall performance.
+<img width="4877" height="3038" alt="1000182937" src="https://github.com/user-attachments/assets/62aab7d7-ddae-47b2-b383-0ce879a113d9" />
 
 This version does not include NOAA frequencies, only UK MCA MSI channels.
 
