@@ -25,10 +25,10 @@ Key 5 has also been added to the register edit screen globally. That enables/dis
 VHF airband
 
 8.33kHz logic has been improved in VFO mode so the spacing counts up and down correctly. While VFO 8.33 works perfectly, the spectrum rounds frequencies to the nearest digit. It's not perfect but acceptable given the radios overall performance.
+
 <img width="4877" height="3038" alt="1000182937" src="https://github.com/user-attachments/assets/62aab7d7-ddae-47b2-b383-0ce879a113d9" />
 
 This version does not include NOAA frequencies, only UK MCA MSI channels.
-
 
 Keyboard commands for new features:
 
