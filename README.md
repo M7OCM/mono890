@@ -16,11 +16,13 @@ Spectrum now has a blacklist function for nuisance frequencies, max 50 frequenci
 
 To blacklist a frequency press Key 5. To restore all blacklisted frequencies press Key 2.
 
-Blacklisted frequencies are restored after exiting the spectrum and during normal power boots.
+Blacklisted frequencies persist (in spectrum for the radio session) unless restored or power is cycled.
 
-Key 8 opens the BK4819 register during spectrum - useful to fine tune gain on the fly (active carrier and squelch open is best).
+Key 8 opens the BK4819 register during spectrum - useful to fine tune gain on the fly (active carrier and squelch open).
 
 Key 5 has also been added to the register edit screen globally. That enables/disables AM Fix. This should be off in Spectrum as AM Fix is not suitable for that mode. The indicator AF ON shows when active, when off battery voltage will show.
+
+Squelch line response has been shortened.
 
 VHF airband
 
@@ -55,11 +57,11 @@ Spectrum
 - [2] Restore all previously blacklisted frequencies
 - [3] Change modulation FM, AM or SB (SSB)
 - [4] Change step size (10Hz- 1MHz)
-- [5] Blacklist frequency, max 50 per session, restore with key [2], resets on leaving spectrum and also on boot
-- [6] Increase squelch level
+- [5] Blacklist frequency, max 50 per session, restore with key [2], resets on power cycle
+- [6] Increase squelch level (response 50ms)
 - [7] Hold/Search (in hold, use up/down to adjust main frequency - useful to avoid RFI)
 - [8] Enter Reg Edit, [EXIT] to return to spectrum
-- [9] Decrease squelch level
+- [9] Decrease squelch level (response 50ms)
 - [0] Toggle VHF/UHF band filter (F = On, X = Off)
 - [*] Change scan delay (0 - 12ms)
 - [#] Toggle bandwidth (25.0K = wide, 12.5K = narrow)
