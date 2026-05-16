@@ -109,7 +109,7 @@ No other changes, so if you don't care (lol) or use NOAA in the US/Canada, don't
 
 <img width="8192" height="4433" alt="1000182947" src="https://github.com/user-attachments/assets/02c94d2c-9a91-4605-a927-609fdb3d6cea" />
 
-Use at own risk, my personal project, back up SPI before proceeding, no warranty anything works, may destroy your radio etc etc My only advice here is don't expect miracles and expect severe overloading if using external antennas. I use regular whips, and telescopic antennae, I also use SMA inline attenuators, 10dB is a good choice to knock the edge off on AM. AM mode really needs register changes to get the best out of it I cannot advise on what may or may not work as your setup will differ greatly from mine - AM Fix is fine but only with a stumpy on 118-137 MHz. AM Fix on 225-399.975 MHz is much more effective in my opinion.
+Use at own risk, my personal project, back up SPI before proceeding, no warranty anything works, may destroy your radio etc etc My only advice here is don't expect miracles and expect severe overloading if using external antennas. I use regular whips, and telescopic antennae, I also use bandpass filters, digital attenuators and modest SMA inline attenuators, 10dB is a good choice to knock the edge off on AM. AM mode really needs register changes to get the best out of it - I cannot advise on what may or may not work as your setup will differ greatly from mine.
 
 <img width="4454" height="8163" alt="1000182950" src="https://github.com/user-attachments/assets/b29da4ad-982d-4ad8-ac92-4455e857cf13" />
 
