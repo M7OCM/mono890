@@ -4,7 +4,7 @@
 
 The mono series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also highly visible under direct sunlight (when using the light theme).
 
-14 May 2026 Evolution mono890
+16 May 2026 Evolution mono890
 
 m7ocm_evolution_i_pcb2.0_uk.bin
 
