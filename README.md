@@ -12,7 +12,11 @@ m7ocm_evolution_i_pcb2.1_uk.bin
 
 Spectrum now has a blacklist function for nuisance frequencies, max 50 frequencies can be blacklisted during spectrum search.
 
-<img width="4913" height="3091" alt="1000182938" src="https://github.com/user-attachments/assets/46ddfa88-9d6d-44c2-8d45-468daefb63dd" />
+<img width="2559" height="1770" alt="1000182971" src="https://github.com/user-attachments/assets/7a40b64d-0c93-4eff-9e0f-c15602003080" />
+
+130.000 is a well known internally generated noise issue as seen above, photo below using the blacklist function to remove it.
+
+<img width="2465" height="1804" alt="1000182972" src="https://github.com/user-attachments/assets/da27617f-9188-4ac2-9055-35cbe6402874" />
 
 To blacklist a frequency press Key 5. To restore all blacklisted frequencies press Key 2.
 
