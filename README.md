@@ -289,8 +289,8 @@ SP = Short Press; LP = Long Press
 
 The following keypad keys are all LP
 
-- [1] Squelch
-- [2] Step Size
+- [1] Step Size
+- [2] Modulation
 - [3] Bandwidth
 - [4] TX Power
 - [5] AM Fix
@@ -301,7 +301,7 @@ The following keypad keys are all LP
 - [0] FMB
 - [*] Edit TX Freq
 - [#] Lock
-- [MENU] TX CTCSS/DCS
+- [MENU] Squelch
 - [EXIT] Single/Dual Display
 
 End of latest update
