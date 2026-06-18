@@ -18,11 +18,32 @@ A new look calibrated S-meter, 9 white pips S1-S9 and 4 red pips denote S9+10, S
 
 <img width="1729" height="2757" alt="1000211529" src="https://github.com/user-attachments/assets/38eecd99-e320-432f-863a-6f616a7954bd" />
 
-Spectrum has a colour option included and key [MENU] is used for cycling. [EXIT] key leave spectrum - the current active spectrum frequency is copied to VFO.
+Spectrum has a colour option included and key [MENU] is used for cycling. [EXIT] key leave spectrum - the current active spectrum frequency is copied to VFO.See new key layout below. Reset all keys Menu #66
 
 The scanner function has been modified to take into account CTCSS/DCS tone detection which failed miserably with fast scanning. This version scans as fast as before, but if a programmed channel has a Tone Sql tone on RX and TX the radio slows the scan down to the sweet spot for detection 220-250ms. Works like stock but with added versatility for users that just scan non tone freqs and require the fastest possible scan rate.
 
 Just for the record there is no Evolution II-IIII, thoses versions were for testing new features and were not released. Version V is the culmination of these versions. Limited colours have been used but no significant SPI bus noise from the screen has been noted.
+
+**Spectrum**
+
+Enter by pressing side key 2 LP
+
+- [Up] Increase frequency range
+- [Down] Decrease frequency range
+- [1] Change scan step (16, 32, 64 or 128)
+- [2] Restore blacklisted frequencies
+- [3] Change modulation FM, AM or SB (SSB)
+- [4] Change step size (0.25k - 50k)
+- [5] Blacklist nuisance frequency
+- [6] Increase squelch level
+- [7] Hold/Search (in hold, use up/down to adjust main frequency)
+- [8] Reg edit
+- [9] Decrease squelch level
+- [0] Toggle v/u band filter (F = On, X = Off)
+- [*] Change scan delay (0 - 10ms)
+- [#] Toggle bandwidth (25.0K = wide, 12.5K = narrow)
+- [MENU] Switch spectrum colour modes (toggle 1-4)
+- [EXIT] Jump to VFO mode with current frequency and bandwidth to allow TX (FM only)
 
 16 May 2026 Evolution I
 
