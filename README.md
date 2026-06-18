@@ -12,6 +12,8 @@ TBA firmware to be released soon
 
 Updates include low power mod based on the work of developer Omegatee, PMR446 fixed at low power regardless of setting, output measured between 0.3W-0.5W, other bands reasonably reduced when low power is selected (mileage varies on band, not perfect but an improvement).
 
+AT32F421 MCU (ARM Cortex-M4) fully optimised to work at 120MHz (stock 72 MHz). My versions always used 120 MHz but it was never optimised before.
+
 A new look calibrated S-meter, 9 white pips S1-S9 and 4 red pips denote S9+10, S9+20, S9+30 and S9+40>
 
 <img width="1729" height="2757" alt="1000211529" src="https://github.com/user-attachments/assets/38eecd99-e320-432f-863a-6f616a7954bd" />
