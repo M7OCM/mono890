@@ -2,13 +2,25 @@
 
 <img width="1702" height="2508" alt="1000182942" src="https://github.com/user-attachments/assets/fa95b192-c6ca-4eaa-8432-96581b4a1e8d" />
 
-The mono series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also highly visible under direct sunlight (when using the light theme).
+The mono/evo series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also highly visible under direct sunlight (when using the light theme).
 
-16 May 2026 Evolution mono890
+Evolution V (5)
 
-m7ocm_evolution_i_pcb2.0_uk.bin
+June 18 2026
 
-m7ocm_evolution_i_pcb2.1_uk.bin
+TBA firmware to be released soon
+
+Updates include low power mod based on the work of developer Omegatee, PMR446 fixed at low power regardless of setting, output measured between 0.3W-0.5W, other bands reasonably reduced when low power is selected (mileage varies on band, not perfect but an improvement).
+
+A new look calibrated S-meter, 9 white pips S1-S9 and 4 red pips denote S9+10, S9+20, S9+30 and S9+40>
+
+Spectrum has a colour option included and key Exit is used for cycling. Menu key is the exit out of spectrum and the current spectrum frequency is copied to VFO.
+
+The scanner function has been modified to take into account CTCSS/DCS tone detection which failed miserably with fast scanning. This version scans as fast as before, but if a programmed channel has a Tone Sql tone on RX and TX the radio slows the scan down to the sweet spot for detection 220-250ms. Works like stock but with added versatility for users that just scan non tone freqs and require the fastest possible scan rate.
+
+Just for the record there is no Evolution II-IIII, thoses versions were for testing new features and were not released. Version V is the culmination of these versions. Limited colours have been used but no significant SPI bus noise from the screen has been noted.
+
+16 May 2026 Evolution I
 
 Spectrum now has a blacklist function for nuisance frequencies, max 50 frequencies can be blacklisted during spectrum search.
 
@@ -48,7 +60,7 @@ Choose a shortcut key to launch Register Editor or use within spectrum. The scre
 - [2] Decrease value of current register's setting by 1
 - [3] Increase value of current register's setting by 1
 - [5] AM Fix on/off (should be set off in spectrum)
-- [EXIT] Return to main
+- [EXIT] Return to main/Change spectrum colour (Evolution V+)
 
 AGC = Auto Gain Control. FGC = Fixed Gain Control.
 
