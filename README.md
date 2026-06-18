@@ -18,7 +18,7 @@ A new look calibrated S-meter, 9 white pips S1-S9 and 4 red pips denote S9+10, S
 
 <img width="1729" height="2757" alt="1000211529" src="https://github.com/user-attachments/assets/38eecd99-e320-432f-863a-6f616a7954bd" />
 
-Spectrum has a colour option included and key Exit is used for cycling. Menu key is the exit out of spectrum and the current spectrum frequency is copied to VFO.
+Spectrum has a colour option included and key [MENU] is used for cycling. [EXIT] key leave spectrum - the current active spectrum frequency is copied to VFO.
 
 The scanner function has been modified to take into account CTCSS/DCS tone detection which failed miserably with fast scanning. This version scans as fast as before, but if a programmed channel has a Tone Sql tone on RX and TX the radio slows the scan down to the sweet spot for detection 220-250ms. Works like stock but with added versatility for users that just scan non tone freqs and require the fastest possible scan rate.
 
@@ -64,7 +64,7 @@ Choose a shortcut key to launch Register Editor or use within spectrum. The scre
 - [2] Decrease value of current register's setting by 1
 - [3] Increase value of current register's setting by 1
 - [5] AM Fix on/off (should be set off in spectrum)
-- [EXIT] Return to main/Change spectrum colour (Evolution V+)
+- [EXIT] Return to spectrum
 
 AGC = Auto Gain Control. FGC = Fixed Gain Control.
 
