@@ -6,9 +6,9 @@ The mono/evo series is specifically designed to reduce RF interference caused by
 
 Evolution V (5)
 
-June 18 2026
+June 2026
 
-TBA firmware to be released soon
+TBA - firmware to be released soon.
 
 Updates include low power mod based on the work of developer Omegatee, PMR446 fixed at low power regardless of setting, output measured between 0.3W-0.5W, other bands reasonably reduced when low power is selected (mileage varies on band, not perfect but an improvement).
 
@@ -18,9 +18,9 @@ A new look calibrated S-meter, 9 white pips S1-S9 and 4 red pips denote S9+10, S
 
 <img width="1729" height="2757" alt="1000211529" src="https://github.com/user-attachments/assets/38eecd99-e320-432f-863a-6f616a7954bd" />
 
-Spectrum has a colour option included and key [MENU] is used for cycling. [EXIT] key leave spectrum - the current active spectrum frequency is copied to VFO.See new key layout below. Reset all keys Menu #66 Global backlight timer has been added to spectrum which is set in Menu #13. useful battery saver if set to 5s. Squelch activated light on, any key light on. Turn off in menu for backlight always on.
+Spectrum has a colour option included and key [MENU] is used for cycling. [EXIT] key leave spectrum - in addition the current active spectrum frequency is copied to VFO. See new key layout below. Reset all keys Menu #66 Global backlight timer has been added to spectrum which is set in Menu #13 and is a useful battery saver if set to 5s. Squelch activated light on, any key light on. Turn off Backlight timer in main menu for backlight always on.
 
-The scanner function has been modified to take into account CTCSS/DCS tone detection which failed miserably with fast scanning. This version scans as fast as before, but if a programmed channel has a Tone Sql tone on RX and TX the radio slows the scan down to the sweet spot for detection 220-250ms. Works like stock but with added versatility for users that just scan non tone freqs and require the fastest possible scan rate.
+The scanner function has been modified to take into account CTCSS/DCS tone detection which failed miserably with fast scanning. This version scans as fast as before, but if a programmed channel has Tone Sql on RX and TX the radio slows the scan down to the sweet spot for detection (220-250ms). Works like stock but with added versatility for users that just scan non tone freqs and require the fastest possible scan rate.
 
 Just for the record there is no Evolution II-IIII, thoses versions were for testing new features and were not released. Version V is the culmination of these versions. Limited colours have been used but no significant SPI bus noise from the screen has been noted.
 
@@ -33,19 +33,19 @@ Enter by pressing side key 2 LP
 - [1] Change scan step (16, 32, 64 or 128)
 - [2] Restore blacklisted frequencies
 - [3] Change modulation FM, AM or SB (SSB)
-- [4] Change step size (0.25k - 50k)
-- [5] Blacklist nuisance frequency
+- [4] Change step size (0.25kHz - 1MHz)
+- [5] Blacklist nuisance frequency (50)
 - [6] Increase squelch level
-- [7] Hold/Search (in hold, use up/down to adjust main frequency)
+- [7] Hold/Search (in Hold, use up/down to adjust main frequency)
 - [8] Reg edit
 - [9] Decrease squelch level
-- [0] Toggle v/u band filter (F = On, X = Off)
-- [*] Change scan delay (0 - 10ms)
-- [#] Toggle bandwidth (25.0K = wide, 12.5K = narrow)
-- [MENU] Switch spectrum colour modes (toggle 1-4)
-- [EXIT] Jump to VFO mode with current frequency and bandwidth to allow TX (FM only)
+- [0] Toggle V/U band filter (F = On, X = Off)
+- [*] Change scan delay (0 - 12ms)
+- [#] Toggle bandwidth (W = 25.0kHz, N = 12.5kHz)
+- [MENU] Switch spectrum colour modes
+- [EXIT] Jump to VFO mode with current frequency and bandwidth to allow TX (FM TX only)
 
-16 May 2026 Evolution I
+May 2026 Evolution I
 
 Spectrum now has a blacklist function for nuisance frequencies, max 50 frequencies can be blacklisted during spectrum search.
 
