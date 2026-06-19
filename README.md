@@ -39,7 +39,7 @@ Enter by pressing side key 2 LP
 - [7] Hold/Search (in Hold, use up/down to adjust main frequency)
 - [8] Reg edit
 - [9] Decrease squelch level
-- [0] Toggle V/U band filter (F = On, X = Off)
+- [0] Toggle VHF/UHF band filter (F = On, X = Off)
 - [*] Change scan delay (0 - 12ms)
 - [#] Toggle bandwidth (W = 25.0kHz, N = 12.5kHz)
 - [MENU] Switch spectrum colour modes
