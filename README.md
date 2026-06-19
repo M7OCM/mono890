@@ -18,7 +18,7 @@ A new look calibrated S-meter, 9 white pips S1-S9 and 4 red pips denote S9+10, S
 
 <img width="1729" height="2757" alt="1000211529" src="https://github.com/user-attachments/assets/38eecd99-e320-432f-863a-6f616a7954bd" />
 
-Spectrum has a colour option included and key [MENU] is used for cycling. [EXIT] key leave spectrum - the current active spectrum frequency is copied to VFO.See new key layout below. Reset all keys Menu #66
+Spectrum has a colour option included and key [MENU] is used for cycling. [EXIT] key leave spectrum - the current active spectrum frequency is copied to VFO.See new key layout below. Reset all keys Menu #66 Global backlight timer has been added to spectrum which is set in Menu #13. useful battery saver if set to 5s. Squelch activated light on, any key light on. Turn off in menu for backlight always on.
 
 The scanner function has been modified to take into account CTCSS/DCS tone detection which failed miserably with fast scanning. This version scans as fast as before, but if a programmed channel has a Tone Sql tone on RX and TX the radio slows the scan down to the sweet spot for detection 220-250ms. Works like stock but with added versatility for users that just scan non tone freqs and require the fastest possible scan rate.
 
