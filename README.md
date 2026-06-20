@@ -43,7 +43,7 @@ Enter by pressing side key 2 LP
 - [MENU] Switch spectrum colour modes
 - [EXIT] Jump to VFO mode with current frequency and bandwidth to allow TX (FM TX only)
 
-May 2026 Evolution I
+May 2026
 
 Spectrum now has a blacklist function for nuisance frequencies, max 50 frequencies can be blacklisted during spectrum search.
 
@@ -61,7 +61,7 @@ Key 8 opens the BK4819 register during spectrum - useful to fine tune gain on th
 
 Key 5 has also been added to the register edit screen globally. That enables/disables AM Fix. This should be off in Spectrum as AM Fix is not suitable for that mode. The indicator AF ON shows when active, when off battery voltage will show.
 
-Squelch line response has been shortened.
+Squelch line response has been made faster.
 
 VHF airband
 
@@ -69,7 +69,7 @@ VHF airband
 
 <img width="4877" height="3038" alt="1000182937" src="https://github.com/user-attachments/assets/62aab7d7-ddae-47b2-b383-0ce879a113d9" />
 
-This version does not include NOAA frequencies, only UK MCA MSI channels.
+This and subsequent versions do not include NOAA frequencies, only UK MCA MSI channels.
 
 Keyboard commands for new features:
 
