@@ -4,11 +4,9 @@
 
 The mono/evo series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also highly visible under direct sunlight (when using the light theme).
 
-Evolution V (5)
+**Evolution V (5)**
 
-June 2026
-
-TBA - firmware to be released soon.
+June 20 2026
 
 Updates include low power mod based on the work of developer Omegatee, PMR446 fixed at low power regardless of setting, output measured between 0.3W-0.5W, other bands reasonably reduced when low power is selected (mileage varies on band, not perfect but an improvement).
 
