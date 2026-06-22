@@ -20,7 +20,7 @@ Spectrum has a colour option included and key [MENU] is used for cycling. [EXIT]
 
 The scanner function has been modified to take into account CTCSS/DCS tone detection which failed miserably with fast scanning. This version scans as fast as before, but if a programmed channel has Tone Sql on RX and TX the radio slows the scan down to the sweet spot for detection (220-250ms). Works like stock but with added versatility for users that just scan non tone freqs and require the fastest possible scan rate.
 
-Just for the record there is no Evolution II-IIII, thoses versions were for testing new features and were not released. Version V is the culmination of these versions. Limited colours have been used but no significant SPI bus noise from the screen has been noted.
+Limited colours have returned but no significant SPI bus noise from the screen has been noted.
 
 **Spectrum**
 
