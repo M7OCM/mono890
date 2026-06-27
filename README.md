@@ -416,6 +416,8 @@ Marcos
 
 [Superogira](https://github.com/superogira)
 
+[TAC Operator](https://youtube.com/@tac-operator?si=EO7oGX7O0n-RAlkQ)
+
 [Tunas1337](https://github.com/tunas1337)
 
 [Xawen](https://github.com/xawen)
