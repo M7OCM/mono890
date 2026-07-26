@@ -6,15 +6,21 @@ WARNING DO NOT USE ON PCB2.1Q VERSION, the original manufacturer has made a hard
 
 The mono/evo series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also highly visible under direct sunlight (when using the light theme).
 
-Coming soon Evolution X (10).
+Coming soon Evolution X (10). Release TBC.
 
-This update focuses on fine tuning AM. AM Hysteresis options plus a RSSI trim dB (basically a specific Antenna trim option for using outdoor antennae with high gain properties).
+This update focuses on fine tuning AM using hysteresis to adjust speed and hold times (5 presets), coupled with AM Fix this has proven to be very successful. Another option is a new Antenna Trim function. Basically RSSI dB trimming for specific purposes eg high gain outdoor antennae. A real testers option that.
 
-TX Prohibit with the menu for RX only.
+Scan Range. A first for OEFW, Start/Finish ie 118-137 MHz, any mode, freq step etc default is 10-999MHz as its always been on OEFWCOM.
+
+TX Prohibit on/off for RX only.
+
+VHF Cut for changing the cut off point of the VHF filter: 240 MHz (stock), 260 MHz and 300 MHz for SATCOM testing primarily.
 
 Because timing in the AM enhancements required specific tuning the clock speed has returned to stock/OEFW 72MHz which helped with calculations and flash space.
 
-Firmware revisions PCB2.0 and PCB2.1 (but not Q) are now selectable within the menu so no need for two bins. It is likely that PCB2.1Q firmware will be distinct from the older versions because the LCD hardware change will require additional data which will not fit in the current firmware. It is anticipated additional space will be available once the driver code is complete but not enough to share all the older PCB data as well. This might change though! Need a Q!
+Firmware revisions PCB2.0 and PCB2.1 (but not Q) are now selectable within the menu so no need for two bins. It is likely that PCB2.1Q firmware will be distinct from the older versions because the new hardware will require additional space which will not fit in the current firmware. This might change though! I need a Q!
+
+Due to the new items I have decided to rework the menu, more info on that later.
 
 **Evolution V (5)**
 
