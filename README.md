@@ -12,7 +12,9 @@ This update focuses on fine tuning AM. AM Hysteresis options plus a RSSI trim dB
 
 TX Prohibit with the menu for RX only.
 
-Firmware revisions PCB2.0 and PCB2.1 (but not Q) are now selectable within the menu so no need for two bins. It is likely that PCB2.1Q firmware will be distinct from the older versions because the LCD driver will need to have additional data which will not fit in the current firmware. It is anticipated additional space will be available once the driver code is complete but not enough to share older PCB data as well. This might change though!
+Because timing in the AM enhancements required specific tuning the clock speed has returned to stock/OEFW 72MHz which helped with calculations and flash space.
+
+Firmware revisions PCB2.0 and PCB2.1 (but not Q) are now selectable within the menu so no need for two bins. It is likely that PCB2.1Q firmware will be distinct from the older versions because the LCD hardware change will require additional data which will not fit in the current firmware. It is anticipated additional space will be available once the driver code is complete but not enough to share all the older PCB data as well. This might change though! Need a Q!
 
 **Evolution V (5)**
 
