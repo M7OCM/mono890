@@ -6,6 +6,14 @@ WARNING DO NOT USE ON PCB2.1Q VERSION, the original manufacturer has made a hard
 
 The mono/evo series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also highly visible under direct sunlight (when using the light theme).
 
+Coming soon Evolution X (10).
+
+This update focuses on fine tuning AM. AM Hysteresis options plus a RSSI trim dB (basically a specific Antenna trim option for using outdoor antennae with high gain properties).
+
+TX Prohibit with the menu for RX only.
+
+Firmware revisions PCB2.0 and PCB2.1 (but not Q) are now selectable within the menu so no need for two bins. It is likely that PCB2.1Q firmware will be distinct from the older versions because the LCD driver will need to have additional data which will not fit in the current firmware. It is anticipated additional space will be available once the driver code is complete but not enough to share older PCB data as well. This might change though!
+
 **Evolution V (5)**
 
 June 20 2026
