@@ -12,7 +12,7 @@ The mono/evo series is specifically designed to reduce RF interference caused by
 
 Coming soon Evolution X (10). Release TBC.
 
-This update focuses on fine tuning AM using hysteresis to adjust speed and hold times (5 presets), coupled with AM Fix this has proven to be very successful. Another option is a new Antenna Trim function. Basically RSSI dB trimming for specific purposes eg high gain outdoor antennae. A real testers option that.
+This update focuses on fine tuning AM using hysteresis to adjust speed and hold times (5 presets), coupled with AM Fix this has proven to be very successful. Another option is a new Antenna Trim function. Basically RSSI dB trimming for specific purposes eg high gain outdoor antennae. A real experimenters option that.
 
 Scan Range. A first for OEFW, Start/Finish ie 118-137 MHz, any mode, freq step etc default is 10-999MHz as its always been on OEFWCOM.
 
