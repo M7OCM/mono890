@@ -22,7 +22,9 @@ VHF Cut for changing the cut off point of the VHF filter: 240 MHz (stock), 260 M
 
 Because timing in the AM enhancements required specific tuning the clock speed has returned to stock/OEFW 72MHz which helped with calculations and flash space.
 
-Firmware revisions PCB2.0 and PCB2.1 (but not Q) are now selectable within the menu so no need for two bins. It is likely that PCB2.1Q firmware will be distinct from the older versions because the new hardware will require additional space which will not fit in the current firmware. This might change though! I need a Q!
+Firmware revisions PCB2.0 and PCB2.1 (but not Q) are now selectable within the menu so no need for two bins.
+
+I can now confirm that PCB2.1Q will be a standalone firmware version. The original LCD driver st7735s has been removed and replaced with the new driver. Space is at a premium and combining 3 PCB revisions is not practical in one binary unfortunately.
 
 Due to the new items I have decided to rework the menu, more info on that later.
 
