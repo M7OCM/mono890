@@ -24,7 +24,7 @@ Because timing in the AM enhancements required specific tuning the clock speed h
 
 Firmware revisions PCB2.0 and PCB2.1 (but not Q) are now selectable within the menu so no need for two bins.
 
-
+<img width="2307" height="1432" alt="1000242274" src="https://github.com/user-attachments/assets/49662a42-e31d-49f1-9b3e-3fab159206d5" />
 
 The spectrum can now receive WFM FM broadcasts (88-108 MHz), this has no other benefit other than looking 😎 It does require a reboot to guarantee the BK4819 chip is switched to the FM chip BK1080. Likewise it is advised to boot the radio (power cycle) to use other non FM broadcast bands.
 
