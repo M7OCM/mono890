@@ -6,8 +6,6 @@ As always use custom firmware at own risk.
 
 Radtel has also provided the OEM Q file which is here to download and should fix the display issue until custom firmware is available.
 
-<img width="1702" height="2508" alt="1000182942" src="https://github.com/user-attachments/assets/fa95b192-c6ca-4eaa-8432-96581b4a1e8d" />
-
 The mono/evo series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also highly visible under direct sunlight (when using the light theme).
 
 Coming soon Evolution X (10). Release TBC.
