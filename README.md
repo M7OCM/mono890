@@ -1,6 +1,6 @@
 ## Mono890 Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1 and PCB2.1Q TBC
 
-WARNING DO NOT USE ON PCB2.1Q VERSION AT THIS time, the original manufacturer has made a hardware revision making all custom firmware currently available incompatible resulting in display incompatiblity, good news though, Radtel has kindly shared the technical data required to incorporate this new LCD driver information into M7OCM custom firmware. Thanks Radtel.
+WARNING DO NOT USE ON PCB2.1Q VERSION AT THIS TIME, the original manufacturer has made a hardware revision making all custom firmware currently available incompatible resulting in display incompatiblity, good news though, Radtel has kindly shared the technical data required to incorporate this new LCD driver information into M7OCM custom firmware. Thanks Radtel.
 
 As always use custom firmware at own risk.
 
@@ -10,7 +10,7 @@ The mono/evo series is specifically designed to reduce RF interference caused by
 
 Coming soon Evolution X (10). Release TBC.
 
-This update focuses on fine tuning AM using hysteresis to adjust speed and hold times (5 presets), coupled with AM Fix this has proven to be very successful. Another option is a new Antenna Trim function. Basically RSSI dB trimming for specific purposes eg high gain outdoor antennae. A real experimenters option that.
+This update focuses on fine tuning airband AM using hysteresis to adjust speed and gain hold times (5 presets), integrated within Dynamic AM Fix (DAF). Also a new Antenna Trim function works alongside DAF for RSSI dB trimming for specific purposes eg high gain outdoor antennae. A real experimenters option that.
 
 Scan Range. A first for OEFW, Start/Finish ie 118-137 MHz, any mode, freq step etc default is 10-999MHz as its always been on OEFWCOM.
 
