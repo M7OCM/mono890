@@ -18,7 +18,7 @@ TX Prohibit on/off for RX only.
 
 VHF Cut for changing the cut off point of the VHF filter: 240 MHz (stock), 260 MHz and 300 MHz for SATCOM testing primarily.
 
-Because timing in the AM enhancements required specific tuning the clock speed has returned to stock/OEFW 72MHz which helped with calculations and flash space.
+Because timing in the AM enhancements required specific tuning the clock speed has returned to stock/OEFW 72 MHz which helped with calculations and flash space.
 
 Firmware revisions PCB2.0 and PCB2.1 (but not Q) are now selectable within the menu so no need for two bins.
 
