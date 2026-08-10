@@ -8,13 +8,17 @@ Radtel has also provided the OEM Q file which is here to download and should fix
 
 The mono/evo series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also highly visible under direct sunlight (when using the light theme).
 
-Coming soon Evolution X (10). Release TBC.
+Coming soon Evolution X (10). Release TBC. Update: testing is now complete on PCB2.0/PCB2.1 and will be released this week (w/c 10 August 26).
+
+PCB2.1Q firmware is ready, just waiting for delivery of the PCB2.1Q version for a test of the new driver. hopefully that will be ready for release mid August 26.
 
 This update focuses on fine tuning airband AM using hysteresis to adjust speed and gain hold times (5 presets), integrated within Dynamic AM Fix (DAF). Also a new Antenna Trim function works alongside DAF for RSSI dB trimming for specific purposes eg high gain outdoor antennae. A real experimenters option that.
 
 Scan Range. A first for OEFW, Start/Finish ie 118-137 MHz, any mode, freq step etc default is 10-999MHz as its always been on OEFWCOM.
 
 TX Prohibit on/off for RX only.
+
+Fixed a long-standing startup logo issue - pixels rendering white when they should be black and vice versa. All image imports now show correctly.
 
 VHF Cut for changing the cut off point of the VHF filter: 240 MHz (stock), 260 MHz and 300 MHz for SATCOM testing primarily.
 
