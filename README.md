@@ -28,7 +28,7 @@ Firmware revisions PCB2.0 and PCB2.1 (but not Q) are now selectable within the m
 
 <img width="2307" height="1432" alt="1000242274" src="https://github.com/user-attachments/assets/49662a42-e31d-49f1-9b3e-3fab159206d5" />
 
-The spectrum can now receive WFM FM broadcasts (88-108 MHz), this has no other benefit other than looking 😎 It does require a reboot to guarantee the BK4819 chip is switched to the FM chip BK1080. Likewise it is advised to boot the radio (power cycle) to use other non FM broadcast bands.
+The spectrum can now receive proper WFM broadcasts (88-108 MHz), this has no other benefit other than looking 😎 It does require a reboot to guarantee the BK4819 chip is switched to the FM chip BK1080. Likewise it is advised to boot the radio (power cycle) to use other non FM broadcast bands.
 
 I can now confirm that PCB2.1Q will be a standalone firmware version. The original LCD driver st7735s has been removed and replaced with the new driver. Space is at a premium and combining 3 PCB revisions is not practical in one binary unfortunately.
 
