@@ -38,107 +38,107 @@ The menu has been reordered as follows:
 
 GROUP 1: Radio
 
-- 1. Squelch Level
-- 2. Freq Step
-- 3. Modulation
-- 4. Bandwidth
-- 5. AM Hysteresis
-- 6. Antenna Trim
-- 7. Reset Ant Trim
-- 8. VHF Cutoff
-- 9. Mic Gain
-- 10. TX Power
-- 11. TX Priority
-- 12. Repeater Mode
-- 13. Tail Tone
-- 14. TX Tone
+- 1 Squelch Level
+- 2 Freq Step
+- 3 Modulation
+- 4 Bandwidth
+- 5 AM Hysteresis
+- 6 Antenna Trim
+- 7 Reset Ant Trim
+- 8 VHF Cutoff
+- 9 Mic Gain
+- 10 TX Power
+- 11 TX Priority
+- 12 Repeater Mode
+- 13 Tail Tone
+- 14 TX Tone
 
 GROUP 2: Squelch Codes/Security
-- 15. CTCSS/DCS
-- 16. RX CTCSS/DCS
-- 17. TX CTCSS/DCS
-- 18. Busy Lock
-- 19. Invert Speech
-- 20. DCS Encrypt
-- 21. Mute Code
-- 22. Prohibit TX
+- 15 CTCSS/DCS
+- 16 RX CTCSS/DCS
+- 17 TX CTCSS/DCS
+- 18 Busy Lock
+- 19 Invert Speech
+- 20 DCS Encrypt
+- 21 Mute Code
+- 22 Prohibit TX
 
 GROUP 3: Scanning
-- 23. Scan Start
-- 24. Scan Finish
-- 25. Scan Resume
-- 26. Scan >Dir<
-- 27. Bank-> Scan
-- 28. Ch -> Bank 1
-- 29. Ch -> Bank 2
-- 30. Ch -> Bank 3
-- 31. Ch -> Bank 4
-- 32. Ch -> Bank 5
-- 33. Ch -> Bank 6
-- 34. Ch -> Bank 7
-- 35. Ch -> Bank 8
+- 23 Scan Start
+- 24 Scan Finish
+- 25 Scan Resume
+- 26 Scan >Dir<
+- 27 Bank-> Scan
+- 28 Ch -> Bank 1
+- 29 Ch -> Bank 2
+- 30 Ch -> Bank 3
+- 31 Ch -> Bank 4
+- 32 Ch -> Bank 5
+- 33 Ch -> Bank 6
+- 34 Ch -> Bank 7
+- 35 Ch -> Bank 8
 
 GROUP 4: Channel Management
-- 36. Channel Name
-- 37. Save Channel
-- 38. Delete Channel
+- 36 Channel Name
+- 37 Save Channel
+- 38 Delete Channel
 
 GROUP 5: VOX
-- 39. VOX Level
-- 40. VOX Delay
+- 39 VOX Level
+- 40 VOX Delay
 
 GROUP 6: DTMF
--41. DTMF Mode
-- 42. DTMF Select
-- 43. DTMF Delay
-- 44. DTMF Interval
-- 45. DTMF Display
+- 41 DTMF Mode
+- 42 DTMF Select
+- 43 DTMF Delay
+- 44 DTMF Interval
+- 45 DTMF Display
 
 GROUP 7: Key Assignments
--46. Side Key 1 LP
--47. Side Key 1 SP
-- 48. Side Key 2 LP
-- 49. Side Key 2 SP
-- 50. Key 0 LP
-- 51. Key 1 LP
-- 52. Key 2 LP
-- 53. Key 3 LP
-- 54. Key 4 LP
-- 55. Key 5 LP
-- 56. Key 6 LP
-- 57. Key 7 LP
-- 58. Key 8 LP
-- 59. Key 9 LP
-- 60. Key * LP
-- 61. Key # LP
-- 62. Key Menu LP
-- 63. Key Exit LP
-- 64. Reset Keys
+- 46 Side Key 1 LP
+- 47 Side Key 1 SP
+- 48 Side Key 2 LP
+- 49 Side Key 2 SP
+- 50 Key 0 LP
+- 51 Key 1 LP
+- 52 Key 2 LP
+- 53 Key 3 LP
+- 54 Key 4 LP
+- 55 Key 5 LP
+- 56 Key 6 LP
+- 57 Key 7 LP
+- 58 Key 8 LP
+- 59 Key 9 LP
+- 60 Key * LP
+- 61 Key # LP
+- 62 Key Menu LP
+- 63 Key Exit LP
+- 64 Reset Keys
 
 GROUP 8: Display/LED/UI
-- 65. Dual Display
-- 66. Dark Theme
-- 67. Startup Logo
-- 68. Startup Text
-- 69. Cell Voltage
-- 70. Backlight
-- 71. Scan LED
-- 72. LED Heartbeat
-- 73. Startup Tone
-- 74. Voice Prompt
-- 75. Key Beep
-- 76. FSK ID
+- 65 Dual Display
+- 66 Dark Theme
+- 67 Startup Logo
+- 68 Startup Text
+- 69 Cell Voltage
+- 70 Backlight
+- 71 Scan LED
+- 72 LED Heartbeat
+- 73 Startup Tone
+- 74 Voice Prompt
+- 75 Key Beep
+- 76 FSK ID
 
 GROUP 9: Radio Behaviour
-- 77. FM Standby
-- 78. Power Save
-- 79. Lock Time
-- 80. Time of Talk
+- 77 FM Standby
+- 78 Power Save
+- 79 Lock Time
+- 80 Time of Talk
 
 GROUP 10: System
-- 81. PCB Revision
-- 82. Reboot
-- 83. Firmware
+- 81 PCB Revision
+- 82 Reboot
+- 83 Firmware
 
 A dedicated version of this firmware will be available on the PCB2.1Q LCD revision as soon as testing is complete - the code is ready but the screen has not been tested with it yet. Looking at sometime during August depends if it works properly.
 
