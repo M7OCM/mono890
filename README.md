@@ -1,6 +1,6 @@
 ## Mono890 Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1 and PCB2.1Q TBC
 
-WARNING DO NOT USE ON PCB2.1Q VERSION AT THIS TIME, the original manufacturer has made a hardware revision making all custom firmware currently available incompatible resulting in display incompatiblity, good news though, Radtel has kindly shared the technical data required to incorporate this new LCD driver information into M7OCM custom firmware. Thanks Radtel.
+WARNING DO NOT USE ON PCB2.1Q VERSION AT THIS TIME, the original manufacturer has made a hardware revision making all custom firmware currently available incompatible - good news, Radtel has kindly shared the technical data required to incorporate this new LCD driver information into M7OCM custom firmware. Thanks Radtel.
 
 As always use custom firmware at own risk.
 
