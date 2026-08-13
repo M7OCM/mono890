@@ -32,7 +32,7 @@ Keys 6/9 no longer control squelch bar - these are now on Sidekey 1 (up) and Sid
 
 Dual Watch only works in dual display, if single frequency display is selected it will automatically turn off. Single mode is more useful for the additional information provided by the S-meter and registers.
 
-Scan freq range. Functional and easy on coding - set the range in Menu 23/34. On first flash the range defaults to 10-999 MHz. Any changes after this will be saved to memory. There is no blacklist function as the code is simple and robust. I recommend changing the scan mode from Carrier Op (CO) to Timed Op (TO) as any annoying stuck freqs will get passed in 2.5s. Because the codes utilises the existing scan/search stock parameters, 'bands' will override the scan start range. In practice this means if searching Airband 118-137 MHz, enter 118.00000 in VFO to ensure the scanning doesn't start at the wrong place. Once in range the scan loops until stopped.
+Scan freq range. Functional and easy on coding - set the range in Menu 23/34. On first flash the range defaults to 10-999 MHz. Any changes after this will be saved to memory. There is no blacklist function as the code is simple and robust. I recommend changing the scan mode from Carrier Op (CO) to Timed Op (TO) as any annoying stuck freqs will get passed in 2.5s. Because the code utilises the existing scan/search stock parameters, 'bands' will override the scan start range. In practice this means if searching Airband 118-137 MHz, enter 118.00000 in VFO to ensure the scanning doesn't start at the wrong place. Once in range the scan loops until stopped.
 
 The menu has been reordered as follows:
 
