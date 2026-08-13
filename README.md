@@ -8,6 +8,38 @@ Radtel has also provided the OEM Q file which is here to download and should fix
 
 The mono/evo series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also highly visible under direct sunlight (when using the light theme).
 
+## 13 August 26 Evolution X for the PCB2.0/PCB2.1 revisions of the RT-890
+
+Important notes regarding Evolution X firmware.
+
+Ensure you are using the correct PCB version. Menu item 81 is where the revisions reside. Select the correct one, the radio will reboot. If you are unsure try both in order, but check 144.0 Mhz and note the signal strength (eg -122). If the signal is something like -144, it's a sign you are using PCB2.1 on a PCB2.0 890.
+
+Menu item 6/7 Antenna Trim. This needs to be reset on first flash. If the dB level is changed it is saved to memory. It's common that the first flash will insert a garbage figure like -20dB so please do reset using Menu item 7. If users switch to alternative firmware ensure the trim is zero before flashing to stock for example.
+
+If this isn't done Dynamic AM Fix (DAF) and AM Hysteresis will not work correctly. For most users leaving the trim setting at 0 (zero dB) is fine. If using a high gain tuned antenna or an external antenna small adjustments will be required. I currently have been running a airband dipole in the loft and have the trim set to 1dB which helps the Dynamic AM Fix respond faster to extreme gain changes . Negative dB has the opposite effect, response time is longer - useful for more distant transmissions where the gain changes more slowly.
+
+AM Hysteresis is a feature that allows users to experiment with 6 presets for faster or slower reaction to increased gain and gain decay. Default is Narrow for the fastest response on airband, experiment to find your sweet spot.
+
+Of course there is only so much you can do with firmware when there is no dedicated (proper) AM hardware and very extreme fast gain changes will overload the radio. To take that into account there is a watchdog feature which monitors outrageous overloads (-98 to -40db) and resets the gain to a safe index after 3000ms. In practice this is effective as the gain of the formerly 'hot' signal will likely drop and DAF will kick in again. Sure the signal may flutter a bit #facepalm but it's safeguarding the radio from getting stuck at a high negative dB value (oh, it's gone deaf type scenario).
+
+The WFM feature in the Spectrum is to be regarded as an experimental bonus lol To use, enter a FM broadcast frequency in VFO (eg 099.3000) it does not matter if it's in AM mode or bandwidth is N or W. It's disregarded as the BK4819 is bypassed on first spectrum initialisation - note: only if the range entered is 88-108 MHz where the BK1080 starts/ends. Note on first try it may not work, reboot, a power cycle fixes that. Most of my less abused 890s worked first time but the old ones didn't. Set Ch step to 100 kHz and hone in on the signals in glorious 160 resolution lol To continue using the spectrum it is advisable to power cycle and set the VFO outside the 88-108 MHz band to reset the reg.
+
+Additional spectrum changes: AM Fix is now prohibited from spectrum, if it's selected in VFO/Ch mode previously it will turn off. 
+
+Keys 6/9 no longer control squelch bar - these are now on Sidekey 1 (up) and Sidekey 2 (down). Continually holding will advance either operation. Key 6 is now for changing spectrum colour views, Menu and Exit keys are back to normal in this build.
+
+Dual Watch only works in dual display, if single frequency display is selected it will automatically turn off. Single mode is more useful for the additional information provided by the S-meter and registers.
+
+Scan freq range. Functional and easy on coding - set the range in Menu 23/34. On first flash the range defaults to 10-999 MHz. Any changes after this will be saved to memory. There is no blacklist function as the code is simple and robust. I recommend changing the scan mode from Carrier Op (CO) to Timed Op (TO) as any annoying stuck freqs will get passed in 2.5s. Because the codes utilises the existing scan/search stock parameters, 'bands' will override the scan start range. In practice this means if searching Airband 118-137 MHz, enter 118.00000 in VFO to ensure the scanning doesn't start at the wrong place. Once in range the scan loops until stopped.
+
+The menu has been reordered and I will paste in the details here ASAP.
+
+A dedicated version of this firmware will be available on the PCB2.1Q LCD revision as soon as testing is complete - the code is ready but the screen has not been tested with it yet. Looking at sometime during August depends if it works properly.
+
+These instructions are a guide and are a WIP so I'll add more and update in due course.
+
+Source files will be available when the Q model firmware is released.
+
 Coming soon Evolution X (10). Release TBC. Update: testing is now complete on PCB2.0/PCB2.1 and will be released this week (w/c 10 August 26).
 
 PCB2.1Q firmware is ready, just waiting for delivery of the PCB2.1Q version for a test of the new driver. hopefully that will be ready for release mid August 26.
