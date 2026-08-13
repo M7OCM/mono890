@@ -24,6 +24,10 @@ AM Hysteresis is a feature that allows users to experiment with 6 presets for fa
 
 Of course there is only so much you can do with firmware when there is no dedicated (proper) AM hardware and very extreme fast gain changes will overload the radio. To take that into account there is a watchdog feature which monitors outrageous overloads (-98 to -40db) and resets the gain to a safe index after 3000ms. In practice this is effective as the gain of the formerly 'hot' signal will likely drop and DAF will kick in again. Sure the signal may flutter a bit #facepalm but it's safeguarding the radio from getting stuck at a high negative dB value (oh, it's gone deaf type scenario).
 
+For airband monitoring both civil and military I personally recommend this type of telescopic, sold as dual bander, it literally works better in Airband. cost under $2 off AliExpress.
+
+
+
 The WFM feature in the Spectrum is to be regarded as an experimental bonus lol To use, enter a FM broadcast frequency in VFO (eg 099.3000) it does not matter if it's in AM mode or bandwidth is N or W. It's disregarded as the BK4819 is bypassed on first spectrum initialisation - note: only if the range entered is 88-108 MHz where the BK1080 starts/ends. Note on first try it may not work, reboot, a power cycle fixes that. Most of my less abused 890s worked first time but the old ones didn't. Set Ch step to 100 kHz and hone in on the signals in glorious 160 resolution lol To continue using the spectrum it is advisable to power cycle and set the VFO outside the 88-108 MHz band to reset the reg.
 
 Additional spectrum changes: AM Fix is now prohibited from spectrum, if it's selected in VFO/Ch mode previously it will turn off. 
