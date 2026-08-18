@@ -1,10 +1,12 @@
-## Mono890 Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1 and PCB2.1Q TBC
+## Mono890 Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1
 
-WARNING DO NOT USE ON PCB2.1Q VERSION AT THIS TIME, the original manufacturer has made a hardware revision making all custom firmware currently available incompatible - good news, Radtel has kindly shared the technical data required to incorporate this new LCD driver information into M7OCM custom firmware. Thanks Radtel.
+WARNING DO NOT USE ON PCB2.1Q VERSION, the original manufacturer has started using a GC9106 LCD making all custom firmware currently available incompatible as the firmware is written for the ST7735S
+
+I have a PCB2.1Q model I purchased from Radtel but the driver does not work and render correctly. Despite reverse engineering a decompiled firmware and sourcing the correct init sequence, positional data etc, there is currently no way to fully integrate the entire ST7735S UI without some serious changes which take time and effort. So unfortunately for now it's a dead end.
 
 As always use custom firmware at own risk.
 
-Radtel has also provided the OEM Q file which is here to download and should fix the display issue until custom firmware is available.
+Radtel has provided the OEM Q file which is here to download and will fix the display issue.
 
 The mono/evo series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also highly visible under direct sunlight (when using the light theme).
 
@@ -146,15 +148,9 @@ GROUP 10: System
 - 82 Reboot
 - 83 Firmware
 
-A dedicated version of this firmware will be available on the PCB2.1Q LCD revision as soon as testing is complete - the code is ready but the screen has not been tested with it yet. Looking at sometime during August depends if it works properly.
-
 These instructions are a guide and are a WIP so I'll add more and update in due course.
 
-Source files will be available when the Q model firmware is released.
-
 Coming soon Evolution X (10). Release TBC. Update: testing is now complete on PCB2.0/PCB2.1 and will be released this week (w/c 10 August 26).
-
-PCB2.1Q firmware is ready, just waiting for delivery of the PCB2.1Q version for a test of the new driver. hopefully that will be ready for release mid August 26.
 
 This update focuses on fine tuning airband AM using hysteresis to adjust speed and gain hold times (5 presets), integrated within Dynamic AM Fix (DAF). Also a new Antenna Trim function works alongside DAF for RSSI dB trimming for specific purposes eg high gain outdoor antennae. A real experimenters option that.
 
