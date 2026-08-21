@@ -1,14 +1,14 @@
 ## Mono890 Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1
 
-WARNING DO NOT USE ON PCB2.1Q VERSION, the original manufacturer has started using a GC9106 LCD making all custom firmware currently available incompatible as the firmware is written for the ST7735S
+WARNING DO NOT USE ON PCB2.1Q VERSION, the original manufacturer has started using a GC9106 LCD making all custom firmware currently available, not just my version, incompatible as the firmware is written for the ST7735S LCD.
 
 I have a PCB2.1Q model I purchased from Radtel but the custom driver does not work and render correctly. Despite reverse engineering a decompiled firmware and sourcing the correct init sequence, positional data etc, there is currently no way to fully integrate the entire ST7735S UI without some serious changes which take time and effort. So unfortunately for now it's a dead end.
 
-Rest assured I have not given up creating a working Q version, currently I'm at the stage where the start up logo works perfectly but that is it! No idea if/when a functioning firmware will be available as there is no specific firmware information available barring Galaxy Core's specification PDF and a basic init command list. To me it looks very much like gc9106.c/h is wrapped up in existing st7735.c/h infrastructure,and it needs with unraveling or completely replacing. currently doing both to see what works!
+Rest assured I have not given up creating a working Q version, currently I'm at the stage where the start up logo works perfectly but that is it! No idea if/when a functioning firmware will be available as there is no specific firmware information available barring Galaxy Core's specification PDF and a basic init command list. To me it looks very much like gc9106.c/h is wrapped up in existing st7735.c/h infrastructure,and it needs unraveling or completely replacing. currently doing both to see what works!
 
 As always use custom firmware at own risk.
 
-Radtel has provided the OEM Q file which is here to download and will fix the display issue.
+Radtel has kindly provided the OEM PCB2.1Q update flasher which is here to fix the display issue.
 
 The mono/evo series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also highly visible under direct sunlight (when using the light theme).
 
