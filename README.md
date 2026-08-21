@@ -2,7 +2,7 @@
 
 WARNING DO NOT USE ON PCB2.1Q VERSION, the original manufacturer has started using a GC9106 LCD making all custom firmware currently available incompatible as the firmware is written for the ST7735S
 
-I have a PCB2.1Q model I purchased from Radtel but the driver does not work and render correctly. Despite reverse engineering a decompiled firmware and sourcing the correct init sequence, positional data etc, there is currently no way to fully integrate the entire ST7735S UI without some serious changes which take time and effort. So unfortunately for now it's a dead end.
+I have a PCB2.1Q model I purchased from Radtel but the custom driver does not work and render correctly. Despite reverse engineering a decompiled firmware and sourcing the correct init sequence, positional data etc, there is currently no way to fully integrate the entire ST7735S UI without some serious changes which take time and effort. So unfortunately for now it's a dead end.
 
 Rest assured I have not given up creating a working Q version, currently I'm at the stage where the start up logo works perfectly but that is it! No idea if/when a functioning firmware will be available as there is no specific firmware information available barring Galaxy Core's specification PDF and a basic init command list. To me it looks very much like gc9106.c/h is wrapped up in existing st7735.c/h infrastructure,and it needs with unraveling or completely replacing. currently doing both see what works!
 
