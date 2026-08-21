@@ -4,6 +4,8 @@ WARNING DO NOT USE ON PCB2.1Q VERSION, the original manufacturer has started usi
 
 I have a PCB2.1Q model I purchased from Radtel but the driver does not work and render correctly. Despite reverse engineering a decompiled firmware and sourcing the correct init sequence, positional data etc, there is currently no way to fully integrate the entire ST7735S UI without some serious changes which take time and effort. So unfortunately for now it's a dead end.
 
+Rest assured I have not given up creating a working Q version, currently at the stage where the start up logo works! lol
+
 As always use custom firmware at own risk.
 
 Radtel has provided the OEM Q file which is here to download and will fix the display issue.
