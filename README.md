@@ -1,4 +1,4 @@
-## Mono890 Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1
+## Mono890 Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1/PCB2.1Q
 
 Latest: PCB2.1Q firmware will be available to download 31 August 2026.
 
