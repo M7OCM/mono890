@@ -4,11 +4,7 @@ WARNING DO NOT USE ON PCB2.1Q VERSION, the original manufacturer has started usi
 
 I have a PCB2.1Q model I purchased from Radtel but the custom driver does not work and render correctly. Despite reverse engineering a decompiled firmware and sourcing the correct init sequence, positional data etc, there is currently no way to fully integrate the entire ST7735S UI without some serious changes which take time and effort.
 
-27 August 26, latest... good news the new GC9106 equipped PCB2.1Q 890 is as the photo says, getting there. I still have a fair few ui bugs to figure out but as is, the radio itself functions perfectly.
-
-<img width="2678" height="1069" alt="1000251104" src="https://github.com/user-attachments/assets/cb2570c1-324a-4c42-bf0f-11b6b52d7f9e" />
-
-Rest assured I have not given up creating a working Q version, currently I'm at the stage where the start up logo works perfectly but that is it! No idea if/when a functioning firmware will be available as there is no specific firmware information available barring Galaxy Core's specification PDF and a basic init command list. To me it looks very much like gc9106.c/h is wrapped up in existing st7735.c/h infrastructure,and it needs unraveling or completely replacing - currently doing both to see what works!
+Rest assured I have not given up entirely on creating a working Q version. No idea if/when a functioning firmware will be available though, as there is no specific 890 firmware information available barring Galaxy Core's specification PDF and a basic init command list. To me it looks very much like GC9106 code is wrapped up in existing st7735.c/h infrastructure,and it needs unraveling.
 
 As always use custom firmware at own risk.
 
