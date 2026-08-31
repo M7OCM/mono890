@@ -148,7 +148,7 @@ GROUP 10: System
 - 82 Reboot
 - 83 Firmware
 
-These instructions are a guide and are a WIP so I'll add more if needed and update in due course.
+These instructions are a guide and are a WIP so I'll add more if needed and update in due course. Source files release date TBC as need to rewrite comments, clean up a lot of test data. Bear with me on that, need a break from this, solid month of brain ache lol 73 M7OCM
 
 Coming soon Evolution X (10). Release TBC. Update: testing is now complete on PCB2.0/PCB2.1 and will be released this week (w/c 10 August 26).
 
