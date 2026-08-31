@@ -1,16 +1,20 @@
 ## Mono890 Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1/PCB2.1Q
 
-Latest: PCB2.1Q firmware will be available to download 31 August 2026.
+Latest: PCB2.1Q firmware will be available to download 31 August 26.
 
-As always use custom firmware at own risk.
+PCB2.1Q uses the GalaxyCore GC9106 LCD and a new driver has been written from scratch to work with the RT-890. Can't say it's been an easy ride! It's pixel perfect and functionality is exactly the same as legacy models using the ST7735S.
+
+M7OCM firmware is 100% FREE to use and distribute, but as always: WARNING! use custom firmware at your own risk - a SPI backup should always be saved before installing.
 
 The mono/evo series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also highly visible under direct sunlight (when using the light theme).
 
-## 13 August 26 Evolution X for the PCB2.0/PCB2.1 revisions of the RT-890
+## 31 August 26 Evolution X r1 (revision 1) for the PCB2.0/PCB2.1/PCB2.1Q revisions of the RT-890
 
-Important notes regarding Evolution X firmware.
+Important notes regarding Evolution X series firmware.
 
-Ensure you are using the correct PCB version. Menu item 81 is where the revisions reside. Select the correct one, the radio will reboot. If you are unsure try both in order, but check 144.0 Mhz and note the signal strength (eg -122). If the signal is something like -144, it's a sign you are using PCB2.1 on a PCB2.0 890.
+Ensure you are using the correct PCB version. PCB2.1Q has a dedicated firmware, PCB2.0/PCB2.1 use the same firmware.
+
+Menu item 81 is where the PCB2.0/PCB2.1 revisions reside (note, no revision menu item in PCB2.1Q). Select the correct one, the radio will reboot. If you are unsure try both in order, but check 144.0 Mhz and note the signal strength (eg -122). If the signal reading is something like -144, it's a sign you are using PCB2.1 on a PCB2.0 890. If the screen is blank or pixelated you are using PCB2.1Q by mistake - just reflash the correct one - no harm is done using the wrong one. The RT-890 has a very safe flash method.
 
 Menu 22 check Prohibit TX is on for TX and off if using as a receive only rig.
 
@@ -36,7 +40,7 @@ Keys 6/9 no longer control squelch bar - these are now on Sidekey 1 (up) and Sid
 
 Dual Watch only works in dual display, if single frequency display is selected it will automatically turn off. Single mode is more useful for the additional information provided by the S-meter and registers.
 
-Scan freq range. Functional and easy on coding - set the range in Menu 23/34. On first flash the range defaults to 10-999 MHz. Any changes after this will be saved to memory. There is no blacklist function as the code is simple and robust. I recommend changing the scan mode from Carrier Op (CO) to Timed Op (TO) as any annoying stuck freqs will get passed in 2.5s. Because the code utilises the existing scan/search stock parameters, 'bands' will override the scan start range. In practice this means if searching Airband 118-137 MHz, enter 118.00000 in VFO to ensure the scanning doesn't start at the wrong place. Once in range the scan loops until stopped.
+Scan freq range. Note feature upgraded in Evolution X r1; scan start/finish is now 8 digits instead of 3 digits (eg 118.00000 - 137.00000). Functional and easy on coding - set the range in Menu 23/34. On first flash the range is defaulted to 10-999 MHz. Any changes after this will be saved to memory. There is no blacklist function as the code is simple and robust. I recommend changing the scan mode from Carrier Op (CO) to Timed Op (TO) as any annoying stuck freqs will get passed in just 2.5s. Because the code utilises the existing scan/search stock parameters, 'bands' will override the scan start range. In practice this means if searching  VHF airband, enter 118.00000 in VFO to ensure the scanning doesn't start at the wrong place. Once in range the scan loops until stopped.
 
 The menu has been reordered as follows:
 
@@ -144,7 +148,7 @@ GROUP 10: System
 - 82 Reboot
 - 83 Firmware
 
-These instructions are a guide and are a WIP so I'll add more and update in due course.
+These instructions are a guide and are a WIP so I'll add more if needed and update in due course.
 
 Coming soon Evolution X (10). Release TBC. Update: testing is now complete on PCB2.0/PCB2.1 and will be released this week (w/c 10 August 26).
 
