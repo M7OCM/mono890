@@ -8,7 +8,7 @@ M7OCM firmware is 100% FREE to use and distribute, but as always: WARNING! use c
 
 The mono/evo series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also highly visible under direct sunlight (when using the light theme).
 
-## 31 August 26 Evolution X r1 (revision 1) for the PCB2.0/PCB2.1/PCB2.1Q revisions of the RT-890
+## 31 August 26 Evolution X r1 (revision 1)
 
 Important notes regarding Evolution X series firmware.
 
