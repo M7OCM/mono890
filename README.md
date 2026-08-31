@@ -1,6 +1,6 @@
 ## Mono890 Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1/PCB2.1Q
 
-Latest: PCB2.1Q firmware will be available to download 31 August 26.
+Latest: PCB2.1Q firmware is available to download 31 August 26.
 
 PCB2.1Q uses the GalaxyCore GC9106 LCD and a new driver has been written from scratch to work with the RT-890. Can't say it's been an easy ride! It's pixel perfect and functionality is exactly the same as legacy models using the ST7735S.
 
