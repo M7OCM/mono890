@@ -143,10 +143,16 @@ GROUP 9: Radio Behaviour
 - 79 Lock Time
 - 80 Time of Talk
 
-GROUP 10: System
+GROUP 10: System (PCB2.0/PCB2.1)
 - 81 PCB Revision
 - 82 Reboot
 - 83 Firmware
+
+Note PCB2.1Q menu differs because there is no PCB Revision item.
+
+GROUP 10: System (PCB2.1Q)
+- 81 Reboot
+- 82 Firmware
 
 These instructions are a guide and are a WIP so I'll add more if needed and update in due course. Source files release date TBC as need to rewrite comments, clean up a lot of test data. Bear with me on that, need a break from this, solid month of brain ache lol 73 M7OCM
 
