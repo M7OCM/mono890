@@ -174,7 +174,7 @@ VHF Cut for changing the cut off point of the VHF filter: 240 MHz (stock), 260 M
 
 Because timing in the AM enhancements required specific tuning the clock speed has returned to stock/OEFW 72 MHz which helped with calculations and flash space.
 
-Firmware revisions PCB2.0 and PCB2.1 (but not Q) are now selectable within the menu so no need for two bins.
+Firmware revisions PCB2.0 and PCB2.1 (but not Q) are now selectable within the menu so no need for two bins for legacy models.
 
 <img width="2307" height="1432" alt="1000242274" src="https://github.com/user-attachments/assets/49662a42-e31d-49f1-9b3e-3fab159206d5" />
 
