@@ -1,6 +1,10 @@
 ## Mono890 Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1/PCB2.1Q
 
-Latest: PCB2.1Q firmware is available to download 31 August 26.
+Latest: a first for the RT-890, a Windows start-up logo programmer. Up until now the Radtel CPS has been the only way to do it.
+
+No need for instructions either as it's a simple tool. Current version 1.0, released today 2 September 26. I'm still torture testing it so there may be future revisions if bugs are found but so far so good.
+
+PCB2.1Q firmware is available to download 31 August 26.
 
 PCB2.1Q uses the GalaxyCore GC9106 LCD and a new driver has been written from scratch to work with the RT-890. Can't say it's been an easy ride! It's pixel perfect and functionality is exactly the same as legacy models using the ST7735S.
 
