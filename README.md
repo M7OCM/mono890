@@ -1,7 +1,7 @@
 ## Mono890 Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1/PCB2.1Q
 
 Latest: a first for the RT-890 M7OCM custom firmware, a dedicated Windows start-up logo programmer. Up until now the Radtel CPS has been the only way to do it.
-
+<img width="496" height="543" alt="890_logo" src="https://github.com/user-attachments/assets/f90ecea5-053b-4379-8827-fc891dac2de0" />
 No need for instructions either as it's a simple tool. Current version 1.0, released today 2 September 26. I'm still torture testing it so there may be future revisions if bugs are found but so far so good.
 
 PCB2.1Q firmware is available to download 31 August 26.
