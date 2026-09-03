@@ -1,0 +1,13 @@
+M7OCM Custom Firmware
+
+890 Logo v1.0
+
+Image size guide
+
+Startup logo: the perfect native image size is: 160 × 100 pixels.
+
+That's because the logo routine writes exactly 160 × 100 RGB565 pixels = 32,000 bytes. 890 Logo then pads the remainder of the 40,960 byte flash area automatically.
+
+So if you're preparing artwork specifically for the radio, 160×100 (8:5 aspect ratio) is ideal. It requires no rescaling at all at the default full image framing, giving you the cleanest possible pixel-for-pixel result.
+
+You can of course feed 890 Logo larger images - the crop/zoom system handles them — but for deliberately designed logos, create the master at 160×100, especially for sharp text, lines and pixel artwork.
