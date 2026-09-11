@@ -1,6 +1,8 @@
 ## Mono890 Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1/PCB2.1Q
 
-Latest: a first for the RT-890 M7OCM custom firmware, a dedicated Windows start-up logo programmer. Up until now the Radtel CPS has been the only way to do it.
+Latest: 11 September 2026, uploaded Evolution X r1 source files for legacy (PCB2.0/2.1) and PCB2.1Q 
+
+A first for the RT-890 M7OCM custom firmware, a dedicated Windows start-up logo programmer. Up until now the Radtel CPS has been the only way to do it.
 
 <img width="496" height="543" alt="890_logo" src="https://github.com/user-attachments/assets/f90ecea5-053b-4379-8827-fc891dac2de0" />
 
@@ -160,7 +162,7 @@ GROUP 10: System (PCB2.1Q)
 - 81 Reboot
 - 82 Firmware
 
-These instructions are a guide and are a WIP so I'll add more if needed and update in due course. Source files release date TBC as need to rewrite comments, clean up a lot of test data. Bear with me on that, need a break from this, solid month of brain ache lol 73 M7OCM
+These instructions are a guide and are a WIP so I'll add more if needed and update in due course.
 
 Coming soon Evolution X (10). Release TBC. Update: testing is now complete on PCB2.0/PCB2.1 and will be released this week (w/c 10 August 26).
 
