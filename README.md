@@ -578,6 +578,11 @@ S meter
 
 Please see 890 and 890 II repos for additional instructions, M7OCM Chirp driver, Dual Tachyon 890 flasher and SPI restore tools. A lot of the info applies to this firmware but there have been lots of changes (see above for some) since the last update (v3.2 on Radtels website) not least the mono display.
 
+Firmware also compatible with the following transceivers:
+
+- iradio UV-5118 Plus
+- Ruyage UV-58
+
 Credits
 
 [DualTachyon](https://github.com/dualtachyon)
