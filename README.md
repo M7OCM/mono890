@@ -1,5 +1,11 @@
 ## Mono890 Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1/PCB2.1Q
 
+Coming soon after a bit more hands on testing is a newly worked Chirp Next Python driver (module). Designed exclusively for EVOLUTION X r2 (new) and above firmware, both will drop together when testing is complete. A lot of previously loose ends have been fixed including full custom keys mapping and M7OCM firmware specific settings added.
+
+A very old old bug, where frequencies added directly to the radio would download to Chirp with corrupted tone codes has been fixed.
+
+There is a degree of backwards compatibility with frequency files created with the previous driver, in as much as the new driver can open old files, but the radio firmware needs to be EVOLUTION X r2+ as the radio extended settings memory has been changed to work with the new Chirp Next driver.
+
 Latest: 11 September 2026, uploaded Evolution X r1 source files for legacy (PCB2.0/2.1) and PCB2.1Q 
 
 A first for the RT-890 M7OCM custom firmware, a dedicated Windows start-up logo programmer. Up until now the Radtel CPS has been the only way to do it.
