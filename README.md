@@ -1,6 +1,16 @@
 ## Mono890 Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1/PCB2.1Q
 
-Coming soon after a bit more hands on testing is a newly worked Chirp Next Python driver (module). Designed exclusively for EVOLUTION X r2 (new) and above firmware, both will drop together when testing is complete. A lot of previously loose ends have been fixed including full custom keys mapping and M7OCM firmware specific settings added.
+Anyone interested why there have have been so many updates lately? Well, it's because I'm so disappointed with Chinese radios - those that promise the world and deliver nothing. I've grown tired of workarounds, piss poor firmware and infuriated by useless updates or lack thereof!
+
+So my quest has been to focus my time and energy on the good old RT-890 make the improvements myself; in all honesty it's the only radio I really know inside and out code wise. I like this radio a lot - it deserves better. The only other radio that gets my seal of approval is the RT-860 (not the GPS one that has the cheapest most pitiful excuse for a GPS module and antenna I've ever come across).
+
+The 860 is a direct descendent of the 890 - the firmware is identical in some of parts and it does afford flair over the bog standard RT-890 stock firmware. Alas this gem was left to rot like so many others but it boasts the best HF receive of any of the newer models despite no firmware updates for a year or more.
+
+Special mention in dispatches goes to the universally despised RT-1000, I actually like it - again it's lineage is 890 and 860! We all know why it failed, but if you forget the AM airband TX drama it's a solid all rounder, nothing exciting mind - and especially not the price, a 60 quid radio at best.
+
+But I digress.
+
+Coming soon... after a bit more hands on testing is a newly worked Chirp Next Python driver (module). Designed exclusively for EVOLUTION X r2 (new) and above firmware, both will drop together when testing is complete. A lot of previously loose ends have been fixed including full custom keys mapping and M7OCM firmware specific settings added.
 
 A very old old bug, where frequencies added directly to the radio would download to Chirp with corrupted tone codes has been fixed.
 
