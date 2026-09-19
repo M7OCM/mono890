@@ -27,7 +27,7 @@ Backwards compatibility
 
 Known limitations
 
-- **BandInfo / old "TX Allow" feature:** removed, not replaced. It was writing to the wrong thing (a band-identity table, not a TX permit).
+- **BandInfo/old "TX Allow" feature:** removed, not replaced. It was writing to the wrong thing (a band-identity table, not a TX permit).
 - **PCB Revision toggle:** no-op on PCB2.1Q — that build hardcodes PCB2.1-equivalent hardware, so the bit is ignored.
 - **Scan Range:** capped at 999.99999 MHz in CHIRP (5 decimal places, 10Hz steps) to match the radio's own keypad exactly. An existing value above that you haven't touched (e.g. the 1300MHz firmware default) is preserved even though not directly enterable.
 - **Scan Resume:** only Carrier/Time/No are real states. Firmware self-corrects anything invalid to Carrier on every boot.
