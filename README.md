@@ -25,14 +25,14 @@ Backwards compatibility
 - **Reading from an r1 radio:** fine, returns real data (extended settings existed pre-r2; r2 only added CPS *write* access to them).
 - **Uploading to an r1 radio:** don't, unless genuinely on r2+. An unpatched radio doesn't recognize the new write command, and the write lands at flash address 0 instead — corrupting unrelated data. The confirmation checkbox exists specifically to prevent this.
 
-## Known limitations
+Known limitations
 
 - **BandInfo / old "TX Allow" feature:** removed, not replaced. It was writing to the wrong thing (a band-identity table, not a TX permit).
 - **PCB Revision toggle:** no-op on PCB2.1Q — that build hardcodes PCB2.1-equivalent hardware, so the bit is ignored.
 - **Scan Range:** capped at 999.99999 MHz in CHIRP (5 decimal places, 10Hz steps) to match the radio's own keypad exactly. An existing value above that you haven't touched (e.g. the 1300MHz firmware default) is preserved even though not directly enterable.
 - **Scan Resume:** only Carrier/Time/No are real states. Firmware self-corrects anything invalid to Carrier on every boot.
 
-## Troubleshooting
+Troubleshooting
 
 - **Menu item wrong, blank, or locks up after upload** → re-download and confirm the raw value actually changed. If it didn't, the write likely never reached the radio.
 - **"Skipping extended-settings write" in the debug log** → the r2+ box wasn't ticked for that upload.
