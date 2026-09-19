@@ -12,10 +12,10 @@ Requirements
 
 Basics
 
-1. Download from radio
-2. Edit as needed
-3. If touching anything under an **EVOLUTION X: ...** group, tick *"I have flashed EVOLUTION X r2 or later"* in **Read Me First** (top of the settings tree). It's unticked every time you open the tab — that's deliberate, not a bug
-4. Upload
+1. Download from radio.
+2. Edit as needed.
+3. If touching anything under an **EVOLUTION X: ...** group, tick *"I have flashed EVOLUTION X r2 or later"* in **Read Me First** (top of the settings tree). It's unticked every time you open the tab — that's deliberate, not a bug.
+4. Upload.
 
 Leaving the box unticked still uploads everything else normally (channels, keys, DTMF, startup) — it just skips the one extended block.
 
@@ -27,10 +27,10 @@ Backwards compatibility
 
 ## Known limitations
 
-- **BandInfo / old "TX Allow" feature:** removed, not replaced. It was writing to the wrong thing (a band-identity table, not a TX permit)
-- **PCB Revision toggle:** no-op on PCB2.1Q — that build hardcodes PCB2.1-equivalent hardware, so the bit is ignored
-- **Scan Range:** capped at 999.99999 MHz in CHIRP (5 decimal places, 10Hz steps) to match the radio's own keypad exactly. An existing value above that you haven't touched (e.g. the 1300MHz firmware default) is preserved even though not directly enterable
-- **Scan Resume:** only Carrier/Time/No are real states. Firmware self-corrects anything invalid to Carrier on every boot
+- **BandInfo / old "TX Allow" feature:** removed, not replaced. It was writing to the wrong thing (a band-identity table, not a TX permit).
+- **PCB Revision toggle:** no-op on PCB2.1Q — that build hardcodes PCB2.1-equivalent hardware, so the bit is ignored.
+- **Scan Range:** capped at 999.99999 MHz in CHIRP (5 decimal places, 10Hz steps) to match the radio's own keypad exactly. An existing value above that you haven't touched (e.g. the 1300MHz firmware default) is preserved even though not directly enterable.
+- **Scan Resume:** only Carrier/Time/No are real states. Firmware self-corrects anything invalid to Carrier on every boot.
 
 ## Troubleshooting
 
