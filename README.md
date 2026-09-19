@@ -39,15 +39,11 @@ Troubleshooting
 
 Caveat
 
-Because the original firmware design never had a way to identify/recognise settings: modulation, power and bandwidth - if saving an AM frequency manually via the radio keyboard when downloaded to Chirp it will default to FM.
+- **Because the original firmware design never had a way to identify/recognise settings: modulation, power and bandwidth - if saving an AM frequency manually via the radio keyboard when downloaded to Chirp it will default to FM.**
 
-This is NOT a bug.
+- This is NOT a bug. It's a actually a limitation of the original design as it was never envisaged that anything other than FM would be used, likewise AM band was hard coded to 108-136 MHz. Custom firmware is way more flexible, but just be aware and change parameters in Chirp. Once saved in Chirp they remain unchanged and upload/download as expected. **This is only applicable to manually entered and saved to radio scenarios**
 
-It's a actually a limitation of the original design as it was never envisaged that anything other than FM would be used, likewise AM band was hard coded to 108-136 MHz. Custom firmware is way more flexible, but just be aware and change parameters in Chirp. Once saved in Chirp they remain unchanged and upload/download as expected.
-
-This is only applicable to manually entered and saved to radio scenarios
-
-Older news and a rant!
+**Older news and a rant!**
 
 Anyone interested why there have have been so many updates lately? Well, it's because I'm so disappointed with Chinese radios - those that promise the world and deliver nothing. I've grown tired of workarounds, piss poor firmware and infuriated by useless updates or lack thereof!
 
