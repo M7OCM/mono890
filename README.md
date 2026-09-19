@@ -59,7 +59,7 @@ Coming soon... after a bit more hands on testing is a newly worked Chirp Next Py
 
 A very old old bug, where frequencies added directly to the radio would download to Chirp with corrupted tone codes has been fixed.
 
-There is a degree of backwards compatibility with frequency files created with the previous driver, in as much as the new driver can open old files, but the radio firmware needs to be EVOLUTION X r2+ as the radio extended settings memory has been changed to work with the new Chirp Next driver.
+There is a degree of backwards compatibility with frequency files created pre r2 driver, in as much as the new driver can open old files, but the radio firmware needs to be EVOLUTION X r2+ to save the new features/settings to radio.
 
 Latest: 11 September 2026, uploaded Evolution X r1 source files for legacy (PCB2.0/2.1) and PCB2.1Q 
 
