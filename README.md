@@ -1,5 +1,13 @@
 ## Mono890 Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1/PCB2.1Q
 
+Latest: 19 September 2026 EVOLUTION X Revision 2/Chirp Next driver specifically for EVOLUTION X r2 plus firmware for RT-890 PCB2.0/2.1/2.1Q.
+
+‎- m7ocm_rt-890_evolution-x_r2_legacy.bin
+- m7ocm_rt-890_evolution-x_r2_pcb2.1q_only.bin
+- chirp-next-m7ocm-evolution-x-r2.py
+
+More info to follow...
+
 Anyone interested why there have have been so many updates lately? Well, it's because I'm so disappointed with Chinese radios - those that promise the world and deliver nothing. I've grown tired of workarounds, piss poor firmware and infuriated by useless updates or lack thereof!
 
 So my quest has been to focus my time and energy on the good old RT-890 make the improvements myself; in all honesty it's the only radio I really know inside and out code wise. I like this radio a lot - it deserves better. The only other radio that gets my seal of approval is the RT-860 (not the GPS one that has the cheapest most pitiful excuse for a GPS module and antenna I've ever come across).
@@ -32,7 +40,7 @@ M7OCM firmware is 100% FREE to use and distribute, but as always: WARNING! use c
 
 The mono/evo series is specifically designed to reduce RF interference caused by the colour screen refreshing. It is also highly visible under direct sunlight (when using the light theme).
 
-## 31 August 26 Evolution X r1 (revision 1)
+31 August 26 Evolution X r1 (revision 1)
 
 Important notes regarding Evolution X series firmware.
 
