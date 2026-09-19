@@ -6,7 +6,38 @@ Latest: 19 September 2026 EVOLUTION X Revision 2/Chirp Next driver specifically 
 - m7ocm_rt-890_evolution-x_r2_pcb2.1q_only.bin
 - chirp-next-m7ocm-evolution-x-r2.py
 
-More info to follow...
+Requirements
+
+- Radio flashed to **EVOLUTION X r2 or later** before uploading anything beyond Basic/DTMF/Startup settings.
+
+Basics
+
+1. Download from radio
+2. Edit as needed
+3. If touching anything under an **EVOLUTION X: ...** group, tick *"I have flashed EVOLUTION X r2 or later"* in **Read Me First** (top of the settings tree). It's unticked every time you open the tab — that's deliberate, not a bug
+4. Upload
+
+Leaving the box unticked still uploads everything else normally (channels, keys, DTMF, startup) — it just skips the one extended block.
+
+Backwards compatibility
+
+- **Old files (saved before r2):** open fine. Extended-settings groups show padded defaults, not the radio's real values — check that tab before uploading an old file back.
+- **Reading from an r1 radio:** fine, returns real data (extended settings existed pre-r2; r2 only added CPS *write* access to them).
+- **Uploading to an r1 radio:** don't, unless genuinely on r2+. An unpatched radio doesn't recognize the new write command, and the write lands at flash address 0 instead — corrupting unrelated data. The confirmation checkbox exists specifically to prevent this.
+
+## Known limitations
+
+- **BandInfo / old "TX Allow" feature:** removed, not replaced. It was writing to the wrong thing (a band-identity table, not a TX permit)
+- **PCB Revision toggle:** no-op on PCB2.1Q — that build hardcodes PCB2.1-equivalent hardware, so the bit is ignored
+- **Scan Range:** capped at 999.99999 MHz in CHIRP (5 decimal places, 10Hz steps) to match the radio's own keypad exactly. An existing value above that you haven't touched (e.g. the 1300MHz firmware default) is preserved even though not directly enterable
+- **Scan Resume:** only Carrier/Time/No are real states. Firmware self-corrects anything invalid to Carrier on every boot
+
+## Troubleshooting
+
+- **Menu item wrong, blank, or locks up after upload** → re-download and confirm the raw value actually changed. If it didn't, the write likely never reached the radio.
+- **"Skipping extended-settings write" in the debug log** → the r2+ box wasn't ticked for that upload.
+
+Old News
 
 Anyone interested why there have have been so many updates lately? Well, it's because I'm so disappointed with Chinese radios - those that promise the world and deliver nothing. I've grown tired of workarounds, piss poor firmware and infuriated by useless updates or lack thereof!
 
