@@ -2,7 +2,7 @@
 
 Latest: 19 September 2026 EVOLUTION X Revision 2/Chirp Next driver specifically for EVOLUTION X r2 plus firmware for RT-890 PCB2.0/2.1/2.1Q.
 
-‎- m7ocm_rt-890_evolution-x_r2_legacy.bin
+- m7ocm_rt-890_evolution-x_r2_legacy.bin
 - m7ocm_rt-890_evolution-x_r2_pcb2.1q_only.bin
 - chirp-next-m7ocm-evolution-x-r2.py
 
