@@ -1,14 +1,14 @@
 ## Mono890 Evolution custom firmware for Radtel RT-890 PCB2.0/PCB2.1/PCB2.1Q
 
 
-Latest: 26 September 2026
+**Latest: 26 September 2026**
 
 - m7ocm_rt-890_evolution-x_r3_legacy.bin
 - m7ocm_rt-890_evolution-x_r3_pcb2.1q_only.bin
 
 This update focuses on manual frequency and bank storing changes on the radio itself. A manual frequency entry via the radio will be added to the selected memory channel, but not added to a memory bank automatically, the user will need to select a bank and add it.
 
-Check channel contents after flashing as the new firmware clears ghost data in channel memory. If no channels are present, reboot the radio, they will reappear. Also recheck the PCB version on legacy models. As always use at own risk and make back ups of memory files and SPI. Use only with latest chirp-next-m7ocm-evolution-x-r2.py Chirp Next driver.
+*Check channel contents after flashing as the new firmware clears ghost data in channel memory. If no channels are present, reboot the radio, they will reappear. Also recheck the PCB version on legacy models. As always use at own risk and make back ups of memory files and SPI. Use only with latest chirp-next-m7ocm-evolution-x-r2.py Chirp Next driver.*
 
 19 September 2026 EVOLUTION X Revision 2/Chirp Next driver specifically for EVOLUTION X r2 plus firmware for RT-890 PCB2.0/2.1/2.1Q.
 
